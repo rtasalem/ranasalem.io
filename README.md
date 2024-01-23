@@ -1,2 +1,2 @@
-# r-salem.io
+# rsalem.io
 My personal website.
