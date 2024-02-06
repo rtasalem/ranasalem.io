@@ -1,6 +1,8 @@
 {
   "name": "rsalem.io",
   "version": "0.1.0",
+  "description": "Personal website for Rana Salem",
+  "author": "Rana Salem ranatasalem@gmail.com",
   "private": true,
   "scripts": {
     "dev": "next dev",
