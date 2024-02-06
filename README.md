@@ -1,3 +1,3 @@
-# [rsalem.io](http://rsalem.io/)
+# [RSALEM.IO](http://rsalem.io/)
 
 My personal website.
