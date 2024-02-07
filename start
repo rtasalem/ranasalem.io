@@ -7,7 +7,7 @@ npm i
 # Run Next app
 npm run dev &
 
-# Pause script and allow server to start before running next command
+# Pause script (5 seconds) and allow local server to start before running final command
 sleep 5
 
 # Open localhost server (port 3000)
