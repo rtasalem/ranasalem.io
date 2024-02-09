@@ -1,6 +1,8 @@
 const Footer: React.FC = () => {
     return(
-        <h1>footer</h1>
+        <div>
+            <h1>footer</h1>
+        </div>
     )
 }
 
