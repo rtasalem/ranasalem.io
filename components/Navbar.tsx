@@ -1,5 +1,6 @@
 import { navLinks } from "@/constants";
 import Image from "next/image";
+import { ThemeSwitcher } from "./ThemeSwitcher";
 
 const Navbar: React.FC = () => {
     return (
@@ -12,7 +13,7 @@ const Navbar: React.FC = () => {
                     href="/"
                     className="-mx3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900"
                 >
-                    <Image src="/icons/navbar-logo.svg" alt="logo" width={200} height={30} />
+                    <Image src="/icons/NavbarLogo.svg" alt="logo" width={200} height={30} />
                 </a>
                 <div>
                     <ul className="gap-12 flex block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900">
@@ -23,6 +24,9 @@ const Navbar: React.FC = () => {
                         ))}
                     </ul>
                 </div>
+                {/* <div className="flex items-center justify-center w-8 h-8">
+                    <ThemeSwitcher />
+                </div> */}
             </nav>
         </div>
     );
