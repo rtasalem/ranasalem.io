@@ -1,0 +1,14 @@
+#!/bin/bash
+set -e
+
+# Install dependencies
+npm i
+
+# Run Next app
+npm run dev &
+
+# Pause script (5 seconds) and allow local server to start before running final command
+sleep 5
+
+# Open localhost server (port 3030)
+open http://localhost:3030
