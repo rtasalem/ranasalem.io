@@ -1,4 +1,4 @@
-# [ranasalem.io](http://rsalem.io/)
+# [ranasalem.io](http://ranasalem.io/)
 
 My personal website.
 **Status:** Very early stages.
