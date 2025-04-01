@@ -1,8 +1,8 @@
-export default function ThemeToggle() {
+export default function ModeToggle() {
   return (
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn m-1">
-        Theme
+        Mode
         <svg
           width="12px"
           height="12px"
@@ -12,13 +12,21 @@ export default function ThemeToggle() {
           <path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path>
         </svg>
       </div>
-      <ul tabIndex={0} className="dropdown-content bg-base-300 rounded-box z-1 w-52 p-2 shadow-2xl">
+      <ul tabIndex={0} className="dropdown-content bg-base-300 rounded-box z-1 w-30 p-2 shadow-2xl">
         <li>
           <input
             type="radio"
             name="theme-dropdown"
             className="theme-controller w-full btn btn-sm btn-block btn-ghost justify-start"
-            aria-label="Light Mode"
+            aria-label="System"
+            value="sytem" />
+        </li>
+        <li>
+          <input
+            type="radio"
+            name="theme-dropdown"
+            className="theme-controller w-full btn btn-sm btn-block btn-ghost justify-start"
+            aria-label="Light"
             value="light" />
         </li>
         <li>
@@ -26,7 +34,7 @@ export default function ThemeToggle() {
             type="radio"
             name="theme-dropdown"
             className="theme-controller w-full btn btn-sm btn-block btn-ghost justify-start"
-            aria-label="Dark Mode"
+            aria-label="Dark"
             value="dark" />
         </li>
         <li>
