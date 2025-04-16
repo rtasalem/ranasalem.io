@@ -1,6 +1,6 @@
-import NavbarBrand from "./brand"
-import NavLinks from "./links"
-import ModeToggle from "./mode-toggle"
+import { NavbarBrand } from "./brand"
+import { NavLinks } from "./links"
+import { ThemeToggle } from "./theme-toggle"
 
 export default function Navbar() {
   return (
@@ -12,7 +12,7 @@ export default function Navbar() {
         <NavLinks />
       </div>
       <div className="navbar-end">
-        <ModeToggle />
+        <ThemeToggle />
       </div>
     </div>
   )

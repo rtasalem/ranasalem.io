@@ -1,4 +1,4 @@
-export default function NavbarBrand() {
+export function NavbarBrand() {
   return (
     <a href="/" className="btn btn-ghost text-xl">ranasalem.io</a>
   )

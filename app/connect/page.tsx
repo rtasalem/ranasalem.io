@@ -1,4 +1,4 @@
-export default function Contact() {
+export default function Connect() {
   return(
     <div>
       <h1>connect</h1>
