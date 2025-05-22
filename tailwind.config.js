@@ -9,6 +9,7 @@ module.exports = {
     themes: [
       "lofi",
       "black",
+      
     ],
   },
 }
