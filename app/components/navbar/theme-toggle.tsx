@@ -6,7 +6,7 @@ import { renderThemeIcon } from "../theme/render-theme-icon"
 export function ThemeToggle() {
   const [theme, setTheme] = useState("light")
 
-  function handleThemeChange(event) {
+  function handleThemeChange(event: React.ChangeEvent<HTMLInputElement>) {
     const selectedTheme = event.target.value
     setTheme(selectedTheme)
     document.documentElement.setAttribute("data-theme", selectedTheme)
