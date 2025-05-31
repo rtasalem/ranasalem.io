@@ -1,6 +1,6 @@
 {
   "name": "ranasalem.io",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
     "daisyui": "^5.0.9",
     "next": "15.2.4",
     "react": "^19.0.0",
