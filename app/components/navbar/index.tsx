@@ -1,6 +1,6 @@
 import { NavbarBrand } from "./brand"
 import { NavLinks } from "./links"
-import { ThemeToggle } from "./theme-toggle"
+import { ThemeToggle } from "../navbar/theme/theme-toggle"
 
 export default function Navbar() {
   return (

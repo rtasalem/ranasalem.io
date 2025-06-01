@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { renderThemeIcon } from "../theme/render-theme-icon"
+import { renderThemeIcon } from "./render-theme-icon"
 
 export function ThemeToggle() {
   const [theme, setTheme] = useState("light")
