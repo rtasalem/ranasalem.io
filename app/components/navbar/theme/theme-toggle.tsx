@@ -23,7 +23,7 @@ export function ThemeToggle() {
             type="radio"
             name="theme-dropdown"
             className="theme-controller w-full btn btn-sm btn-block btn-ghost justify-start"
-            aria-label="Light Mode"
+            aria-label="Light"
             value="light"
             onChange={handleThemeChange}
             checked={theme === "light"}
@@ -34,7 +34,7 @@ export function ThemeToggle() {
             type="radio"
             name="theme-dropdown"
             className="theme-controller w-full btn btn-sm btn-block btn-ghost justify-start"
-            aria-label="Dark Mode"
+            aria-label="Dark"
             value="black"
             onChange={handleThemeChange}
             checked={theme === "black"}
@@ -45,7 +45,7 @@ export function ThemeToggle() {
             type="radio"
             name="theme-dropdown"
             className="theme-controller w-full btn btn-sm btn-block btn-ghost justify-start"
-            aria-label="Rana's Mode"
+            aria-label="Rana"
             value="rana"
             onChange={handleThemeChange}
             checked={theme === "rana"}
