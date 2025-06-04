@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="bg-base-200 text-base-content min-h-screen">
+    <div className="bg-base-100 text-base-content min-h-screen">
       <div className="max-w-6xl mx-auto">
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
           <li>

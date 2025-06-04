@@ -4,7 +4,6 @@ export function NavLinks() {
       <li><a href="/experience">Experience</a></li>
       <li><a href="/blog">Blog</a></li>
       <li><a href="/projects">Projects</a></li>
-      <li><a href="/connect">Connect</a></li>
     </ul>
   )
 }
