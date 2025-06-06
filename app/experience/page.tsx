@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <div className="bg-base-100 text-base-content min-h-screen">
-      <div className="max-w-6xl mx-auto">
+    <div className="bg-base-100 text-base-content">
+      <div className="max-w-5xl mx-auto">
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
           <li>
             <div className="timeline-middle">
@@ -19,12 +19,15 @@ export default function About() {
               </svg>
             </div>
             <div className="timeline-start mb-10 md:text-end">
-              <time className="font-mono italic">JAN 2024 - present</time>
+              <time className="font-mono italic">January 2024 - present</time>
               <div className="text-lg font-black">Department for Environment, Food and Rural Affairs (Defra)</div>
               <div className="font-black">Software Developer</div>
-              A 2-year placement in the UK Civil Service as a software developer specialising in Node.js.
-              Chosen to work within Defra's Farming and Countryside Programme as part of a multidisciplinary team
-              building an online portal to improve online interactions between farmers and Defra.
+              A 2-year contract in the UK Civil Service via FDM Group as a Node.js developer.
+              Chosen to work within Defra's thriving Farming and Countryside Programme on a 
+              multidisciplinary team. Directly involved in the developing and maintaining of a 
+              large scale online portal that strives to improve online interactions between Defra 
+              and British farmers, further empowering them in their invaluable work. Nominated as 
+              FDM's Consultant of the Month only 2 months into the placement.
             </div>
             <hr />
           </li>
@@ -45,15 +48,15 @@ export default function About() {
               </svg>
             </div>
             <div className="timeline-end md:mb-10">
-              <time className="font-mono italic">APR 2023 - present</time>
+              <time className="font-mono italic">April 2023 - present</time>
               <div className="text-lg font-black">FDM Group</div>
               <div className="font-black">IT Consultant</div>
-              Nominated for Consultant of the Month & FDM Champion.
-              Awarded the Tech Industry Gold Foundation Credential in software development following
-              14 weeks of intensive training through FDM’s She Lives Tech academy. Trusted to deliver successful
-              internal proof of concept projects as a backend software developer by leveraging Agile and Scrum
-              principles. On a 2-year placement as a Software Developer with Defra (Department for Environment,
-              Food and Rural Affairs).
+              Nominated for Consultant of the Month & FDM Champion for contributions made whilst working with 
+              Defra, one of FDM's public sector clients. Awarded the Tech Industry Gold Foundation Credential in 
+              software development following 14 weeks of intensive training through FDM’s She Lives Tech academy. 
+              Trusted to deliver successful internal proof of concept projects as a backend software developer by 
+              leveraging Agile and Scrum. Developed a full-stack, Barbie themed e-commerce application as a final
+              project submitted and presented to internal FDM trainers.
             </div>
             <hr />
           </li>
@@ -74,12 +77,15 @@ export default function About() {
               </svg>
             </div>
             <div className="timeline-start mb-10 md:text-end">
-              <time className="font-mono italic">OCT 2022 - APR 2023</time>
+              <time className="font-mono italic">October 2022 - April 2023</time>
               <div className="text-lg font-black">Glasgow Caledonian University</div>
-              Assisting in teaching of BSc and PhD students in the Department of Applied Sciences.
-              Utilising previous experience and expertise to demonstrate to students the use of laboratory
-              instrumentation. Overseeing the implementation of safe working practices to promote health and
-              safety amongst students and staff in the laboratory.
+              <div className="font-black">Laboratory Demonstrator</div>
+              Teaching assistant and demonstrator helping to facilitate laboratory sessions to final year undergradautes 
+              and pHD students. Delivering interactive, engaging demoes on the use of various laboratory equipment including 
+              high powered microscopes (optical microscopy, Atomic Force Microscopy, Scanning Electron Microscopy). Maintained
+              a high level of safety for staff and students by implementing safe working practices, particularly in the handling
+              of corrosive, dangerous chemicals. Provided constructive feedback to students on their dissertations with the aim of
+              ensuring they put forward their best work for their final year deadlines.
             </div>
             <hr />
           </li>
@@ -100,7 +106,7 @@ export default function About() {
               </svg>
             </div>
             <div className="timeline-end md:mb-10">
-              <time className="font-mono italic">2007</time>
+              <time className="font-mono italic"></time>
               <div className="text-lg font-black">iPhone</div>
               iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile
               operating system. The first-generation iPhone was announced by then-Apple CEO Steve Jobs on
