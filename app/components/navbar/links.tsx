@@ -1,4 +1,4 @@
-import { NavDropdown } from "./dropdown"
+import { NavDropdown } from "./dropdown/dropdown"
 
 export function NavLinks() {
   return (
