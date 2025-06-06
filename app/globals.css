@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @plugin "daisyui" {
-  themes: light --default, black --prefersdark;
+  themes: light --default, dark --prefersdark;
 }
 
 @plugin "daisyui/theme" {
@@ -29,9 +29,9 @@
   --color-warning-content: oklch(17.674% 0.027 79.94);
   --color-error: oklch(78.66% 0.15 28.47);
   --color-error-content: oklch(15.732% 0.03 28.47);
-  --radius-selector: 2rem;
-  --radius-field: 0rem;
-  --radius-box: 0rem;
+  --radius-selector: 0.25rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.25rem;
   --size-selector: 0.25rem;
   --size-field: 0.25rem;
   --border: 1px;
@@ -40,38 +40,73 @@
 }
 
 @plugin "daisyui/theme" {
-  name: "rana";
+  name: "dark";
   default: false;
-  prefersdark: false;
-  color-scheme: "light";
-  --color-base-100: oklch(92% 0.12 95.746);
-  --color-base-200: oklch(82% 0.189 84.429);
-  --color-base-300: oklch(97% 0.071 103.193);
-  --color-base-content: oklch(21% 0.034 264.665);
-  --color-primary: oklch(67% 0.182 276.935);
-  --color-primary-content: oklch(25% 0.09 281.288);
-  --color-secondary: oklch(71% 0.202 349.761);
-  --color-secondary-content: oklch(28% 0.109 3.907);
-  --color-accent: oklch(0% 0 0);
+  prefersdark: true;
+  color-scheme: "dark";
+  --color-base-100: oklch(0% 0 0);
+  --color-base-200: oklch(19% 0 0);
+  --color-base-300: oklch(22% 0 0);
+  --color-base-content: oklch(87.609% 0 0);
+  --color-primary: oklch(35% 0 0);
+  --color-primary-content: oklch(100% 0 0);
+  --color-secondary: oklch(35% 0 0);
+  --color-secondary-content: oklch(100% 0 0);
+  --color-accent: oklch(35% 0 0);
   --color-accent-content: oklch(100% 0 0);
-  --color-neutral: oklch(44% 0.03 256.802);
-  --color-neutral-content: oklch(98% 0.002 247.839);
-  --color-info: oklch(68% 0.169 237.323);
-  --color-info-content: oklch(97% 0.013 236.62);
-  --color-success: oklch(69% 0.17 162.48);
-  --color-success-content: oklch(97% 0.021 166.113);
-  --color-warning: oklch(76% 0.188 70.08);
-  --color-warning-content: oklch(98% 0.022 95.277);
-  --color-error: oklch(63% 0.237 25.331);
-  --color-error-content: oklch(97% 0.013 17.38);
-  --radius-selector: 0rem;
-  --radius-field: 0rem;
-  --radius-box: 0rem;
+  --color-neutral: oklch(35% 0 0);
+  --color-neutral-content: oklch(100% 0 0);
+  --color-info: oklch(45.201% 0.313 264.052);
+  --color-info-content: oklch(89.04% 0.062 264.052);
+  --color-success: oklch(51.975% 0.176 142.495);
+  --color-success-content: oklch(90.395% 0.035 142.495);
+  --color-warning: oklch(96.798% 0.211 109.769);
+  --color-warning-content: oklch(19.359% 0.042 109.769);
+  --color-error: oklch(62.795% 0.257 29.233);
+  --color-error-content: oklch(12.559% 0.051 29.233);
+  --radius-selector: 0.25rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.25rem;
   --size-selector: 0.25rem;
   --size-field: 0.25rem;
   --border: 1px;
-  --depth: 1;
-  --noise: 1;
+  --depth: 0;
+  --noise: 0;
+}
+
+@plugin "daisyui/theme" {
+  name: "frog";
+  default: false;
+  prefersdark: false;
+  color-scheme: "dark";
+  --color-base-100: oklch(27% 0.072 132.109);
+  --color-base-200: oklch(26% 0.051 172.552);
+  --color-base-300: oklch(39% 0.095 152.535);
+  --color-base-content: oklch(95% 0.038 75.164);
+  --color-primary: oklch(84% 0.238 128.85);
+  --color-primary-content: oklch(39% 0.095 152.535);
+  --color-secondary: oklch(84% 0.238 128.85);
+  --color-secondary-content: oklch(39% 0.095 152.535);
+  --color-accent: oklch(37% 0.01 67.558);
+  --color-accent-content: oklch(92% 0.12 95.746);
+  --color-neutral: oklch(37% 0.01 67.558);
+  --color-neutral-content: oklch(92% 0.12 95.746);
+  --color-info: oklch(74% 0.16 232.661);
+  --color-info-content: oklch(29% 0.066 243.157);
+  --color-success: oklch(79% 0.209 151.711);
+  --color-success-content: oklch(26% 0.065 152.934);
+  --color-warning: oklch(84.8% 0.1962 84.62);
+  --color-warning-content: oklch(44.8% 0.1962 84.62);
+  --color-error: oklch(65% 0.1985 24.22);
+  --color-error-content: oklch(27% 0.1985 24.22);
+  --radius-selector: 0.25rem;
+  --radius-field: 0.25rem;
+  --radius-box: 0.25rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
 }
 
 :root {
@@ -84,13 +119,6 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
