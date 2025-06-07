@@ -7,7 +7,7 @@ import {
 
 export default function Projects() {
   return (
-    <div className="flex justify-center items-center text-base-content bg-base-100 min-h-150">
+    <div className="flex justify-center items-center text-base-content bg-base-100 min-h-200">
       <div className="flex flex-col gap-5">
         <div className="card card-side card-border bg-base-300 w-250">
           <div className="card-body">
