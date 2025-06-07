@@ -2,7 +2,7 @@ import { gearItems } from "../constants/gear-items"
 
 export default function Gear() {
   return (
-    <div className="overflow-x-auto">
+    <div className="overflow-x-auto bg-base-100 text-base-content">
       <div className="max-w-3xl mx-auto">
         <table className="table">
           <thead>
