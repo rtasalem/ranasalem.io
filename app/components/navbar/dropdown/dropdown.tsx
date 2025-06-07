@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { dropdownItems } from './dropdown-items'
+import { dropdownItems } from '../../../constants/dropdown-items'
 
 export function NavDropdown() {
   return (

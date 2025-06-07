@@ -1,4 +1,4 @@
-import { KbdKeys } from "./components/home/kbd-keys"
+import { KbdKeys } from "./constants/kbd-keys"
 
 export default function Home() {
   return (

@@ -1,20 +1,12 @@
-export default function Gear() {
-  const items = [
-    {
-      icon: ':D',
-      item: 'MacBook Pro 2020 13-inch',
-      description: 'My personal computer that I use for developing personal projects, browsing, streaming etc.',
-      price: '£0.00',
-      url: 'not-a-real-url'
-    }
-  ]
+import { gearItems } from "../constants/gear-items"
 
+export default function Gear() {
   return (
     <div className="overflow-x-auto">
       <div className="max-w-3xl mx-auto">
         <table className="table">
           <thead>
-            <tr key={index}>
+            <tr>
               <th></th>
               <th>Item</th>
               <th>Description</th>
@@ -22,15 +14,14 @@ export default function Gear() {
             </tr>
           </thead>
           <tbody>
-            {items.map(({ icon, item, description, price, url }, index) => (
-              <tr>
+            {gearItems.map(({ icon, item, description, url }) => (
+              <tr key={item}>
                 <th>{icon}</th>
                 <td>{item}</td>
                 <td>{description}</td>
-                <td>{price}</td>
-                <td>{url}</td> //include a href
+                <td>{url}</td>
               </tr>
-            )))}
+            ))}
           </tbody>
         </table>
       </div>
