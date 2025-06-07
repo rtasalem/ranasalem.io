@@ -1,4 +1,4 @@
-export default function About() {
+export default function Experience() {
   return (
     <div className="bg-base-100 text-base-content mi">
       <div className="max-w-5xl mx-auto min-h-screen">
