@@ -1,6 +1,6 @@
 export default function Experience() {
   return (
-    <div className="bg-base-100 text-base-content min-h-screen">
+    <div className="bg-base-100 text-base-content">
       <div className="max-w-5xl mx-auto">
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
           <li>
