@@ -9,7 +9,8 @@ Welcome to my personal website & little corner of the internet.
 
 ## Features
 
-Themes:
+### Themes
+
 - Light mode (for the people that want their corneas to burn to a crisp).
 - Dark mode (the right choice).
 - Frog mode (a.k.a. Rana's mode, `rana` = `frog` in Spanish & Italian).
