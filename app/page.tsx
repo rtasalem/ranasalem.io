@@ -2,7 +2,7 @@ import { KbdKeys } from "./constants/kbd-keys"
 
 export default function Home() {
   return (
-    <div className="hero bg-base-100 min-h-screen text-base-content">
+    <div className="hero bg-base-100 min-h-160 text-base-content">
       <div className="hero-content text-center">
         <div>
           <h1 className="text-9xl font-bold mb-6">RANA SALEM</h1>
@@ -11,7 +11,7 @@ export default function Home() {
             Full-stack codesmith who occasionally writes about writing code.
           </p>
           <div className="avatar">
-            <div className="w-80 rounded">
+            <div className="w-100 rounded">
               <img src="avatar.png" alt="Avatar" />
             </div>
           </div>
