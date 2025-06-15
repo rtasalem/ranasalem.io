@@ -30,12 +30,12 @@ export default function Gear() {
             ))}
           </tbody>
         </table>
-        <div className="text-left mt-20 mb-10">
-          <p><sup>1</sup>Yes, I do <strong>love</strong> Logitech. They're bluetooth 
+        <div className="text-left mt-10 mb-15">
+          <p className="mb-3"><sup>1</sup>Disclaimer: Yes, I do <strong>love</strong> Logitech. They're bluetooth 
           functionality for switching between devices (particularly on keyboards) is 
           second to none. That being said my opinions are all my own and I'm not (sadly)
           sponsored by Logitech (maybe one day). 🤞🏽</p>
-          <p><sup>2</sup>Disclaimer: All the links listed above are affiliate links.  
+          <p><sup>2</sup>Another Disclaimer: All the links listed above are affiliate links.  
             This just means that if you use those links to purchase any of the above items,   
             I get a little kickback as a reward and at no extra cost to you. 😊</p>
         </div>
