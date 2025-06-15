@@ -11,7 +11,7 @@ export default function Home() {
             Full-stack codesmith who occasionally writes about writing code.
           </p>
           <div className="avatar">
-            <div className="w-100 rounded">
+            <div className="w-80 rounded">
               <img src="avatar.png" alt="Avatar" />
             </div>
           </div>
