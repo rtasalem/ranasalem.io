@@ -24,28 +24,28 @@ export const gearItems = [
     icon: '🐁',
     item: 'Logitech MX Anywhere 3S',
     description: 'The mouse that I take when I\'m travelling because of it\'s small yet comfortable-to-use form factor.',
-    price: '£0.00',
+    price: '£69.99 on it\'s own or £149.99 as a bundle with MX Keys Mini',
     url: 'not-a-real-url'
   },
   {
     icon: '🐁',
     item: 'Logitech Lift',
     description: 'An ergonomic mouse that I bought based on a friend\'s recommendation which has been very comfortable to use.',
-    price: '£0.00',
+    price: '£49.99',
     url: 'not-a-real-url'
   },
   {
     icon: '⌨️',
-    item: 'Logitech Wave',
+    item: 'Logitech Wave Keys',
     description: 'I got this as part of a bundle with the Lift mouse. Full size keyboard with a comfortable ergonomic design. Reminds of the keyboards I used in primary school so bonus points for nostalgia.',
-    price: '£0.00',
+    price: '£49.99',
     url: 'not-a-real-url'
   },
   {
     icon: '⌨️',
     item: 'Keychron K3',
     description: 'The first mechanical keyboard I ever bought. I do love the clickiness of this one. Got this with the brown tactile switches. I\'ll often switch between this and the Wave keyboard.',
-    price: '£0.00',
+    price: '£120.99',
     url: 'not-a-real-url'
   }
 ]
