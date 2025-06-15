@@ -5,7 +5,7 @@ export default function Gear() {
     <div className="overflow-x-auto bg-base-100 text-base-content">
       <div className="text-center">
         <h1 className="text-3xl font-bold mt-5 mb-3">Gear</h1>
-        <p className="mb-5">A list of everything that I currently use as a software developer<sup>1</sup>...</p>
+        <p className="mb-5">A table of everything that I currently use as a software developer<sup>1</sup>...</p>
       </div>
       <div className="max-w-3xl mx-auto">
         <table className="table">
