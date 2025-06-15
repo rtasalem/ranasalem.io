@@ -13,8 +13,8 @@ export default function Projects() {
         <p>A showcase of but a few of the side projects that I've been developing and maintaining...</p>
       </div>
       <div className="flex justify-center items-center text-base-content bg-base-100 mt-10">
-        <div className="flex flex-col gap-5">
-          <div className="card card-side card-border bg-base-300 w-250">
+        <div className="flex flex-col gap-5 mb-15">
+          <div className="card card-side card-border bg-base-300 w-200">
             <div className="card-body">
               <h2 className="card-title">ranasalem.io (Personal Website)</h2>
               <p>
@@ -29,7 +29,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="card card-side card-border bg-base-300 w-250">
+          <div className="card card-side card-border bg-base-300 w-200">
             <div className="card-body">
               <h2 className="card-title">Busgres</h2>
               <p>
@@ -47,7 +47,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="card card-side card-border bg-base-300 w-250">
+          <div className="card card-side card-border bg-base-300 w-200">
             <div className="card-body">
               <h2 className="card-title">Draft My CV</h2>
               <p>
