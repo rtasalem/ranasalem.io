@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { renderThemeIcon } from "./render-theme-icon"
-import { themes } from "./themes"
+import { themes } from "../../../constants/themes"
 
 export function ThemeToggle() {
   const [theme, setTheme] = useState("light")
