@@ -15,6 +15,7 @@ export default function Gear() {
               <th>Item</th>
               <th>Description</th>
               <th>Price (GBP)</th>
+              <th>Amazon*</th>
             </tr>
           </thead>
           <tbody>
@@ -28,6 +29,11 @@ export default function Gear() {
             ))}
           </tbody>
         </table>
+        <div className="text-center justify-left">
+          <p>*Disclaimer: All the links listed above are affiliate links.  
+            This just means that if you use those links to purchase any of the above items,   
+            I get a little kickback as a reward and at no extra cost to you. 😊</p>
+        </div>
       </div>
     </div>
   )
