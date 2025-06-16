@@ -15,7 +15,7 @@ export default function Gear() {
               <th>Item</th>
               <th>Description</th>
               <th>Price (GBP)</th>
-              <th>Amazon<sup>2</sup></th>
+              <th>Buy It<sup>2</sup></th>
             </tr>
           </thead>
           <tbody>
