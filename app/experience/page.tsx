@@ -1,7 +1,11 @@
 export default function Experience() {
   return (
-    <div className="bg-base-100 text-base-content">
-      <div className="max-w-5xl mx-auto">
+    <div className="overflow-x-auto bg-base-100 text-base-content">
+      <div className="max-w-3xl mx-auto">
+        <div className="text-center">
+          <h1 className="text-3xl font-bold mt-5 mb-3">experience</h1>
+          <p className="mb-8">A timeline summarising my career so far...</p>
+        </div>
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
           <li>
             <div className="timeline-middle">
@@ -157,7 +161,7 @@ export default function Experience() {
                 />
               </svg>
             </div>
-            <div className="timeline-end mb-10 md:mb-10">
+            <div className="timeline-end mb-10 md:mb-15">
               <time className="font-mono italic">June - August 2020</time>
               <div className="text-lg font-black">Royal Microscopical Society (RMS) Summer Studentship</div>
               Initial research exploring the effects of oxidative and reductive bleaching on historic cotton textile

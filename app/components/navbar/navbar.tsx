@@ -4,7 +4,7 @@ import { ThemeToggle } from "./themes/theme-toggle"
 
 export default function Navbar() {
   return (
-    <div className="navbar bg-base-100 shadow-sm text-base-content">
+    <div className="navbar bg-base-100 text-base-content z-50 sticky">
       <div className="navbar-start">
         <NavbarBrand />
       </div>
