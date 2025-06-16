@@ -7,9 +7,9 @@ import {
 
 export default function Projects() {
   return (
-    <div>
+    <div className="overflow-x-auto bg-base-100 text-base-content">
       <div className="text-center">
-        <h1 className="text-3xl font-bold mt-5 mb-3">Projects</h1>
+        <h1 className="text-3xl font-bold mt-5 mb-3">projects</h1>
         <p>A showcase of but a few of the side projects that I've been developing and maintaining...</p>
       </div>
       <div className="flex justify-center items-center text-base-content bg-base-100 mt-10">

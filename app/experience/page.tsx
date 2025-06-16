@@ -1,11 +1,11 @@
 export default function Experience() {
   return (
-    <div className="bg-base-100 text-base-content">
-      <div className="text-center">
-        <h1 className="text-3xl font-bold mt-5 mb-3">Experience</h1>
-        <p className="mb-8">A timeline summarising my career so far...</p>
-      </div>
+    <div className="overflow-x-auto bg-base-100 text-base-content">
       <div className="max-w-3xl mx-auto">
+        <div className="text-center">
+          <h1 className="text-3xl font-bold mt-5 mb-3">experience</h1>
+          <p className="mb-8">A timeline summarising my career so far...</p>
+        </div>
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
           <li>
             <div className="timeline-middle">

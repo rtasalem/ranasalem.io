@@ -6,8 +6,8 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 export const dropdownItems = [
-  { label: "Email", href: 'mailto:ranatasalem@gmail.com', icon: faEnvelope },
-  { label: "GitHub", href: 'https://github.com/rtasalem', icon: faGithub },
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/ranatasalem/', icon: faLinkedin },
-  { label: 'ORCID', href: "https://orcid.org/0000-0002-8683-561X", icon: faOrcid }
+  { label: "email", href: 'mailto:ranatasalem@gmail.com', icon: faEnvelope },
+  { label: "github", href: 'https://github.com/rtasalem', icon: faGithub },
+  { label: 'linkedin', href: 'https://www.linkedin.com/in/ranatasalem/', icon: faLinkedin },
+  { label: 'orcid', href: "https://orcid.org/0000-0002-8683-561X", icon: faOrcid }
 ]

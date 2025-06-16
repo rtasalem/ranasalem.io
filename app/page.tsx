@@ -5,7 +5,7 @@ export default function Home() {
     <div className="hero bg-base-100 min-h-160 text-base-content">
       <div className="hero-content text-center">
         <div>
-          <h1 className="text-9xl font-bold mb-3">RANA SALEM</h1>
+          <h1 className="text-9xl font-bold mb-3">rana salem</h1>
           <div className="mb-5">
             <KbdKeys />
           </div>
