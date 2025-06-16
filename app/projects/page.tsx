@@ -23,6 +23,9 @@ export default function Projects() {
                 <p className="text-sm text-base-content/70 mb-1">
                   <strong>Tech Stack:</strong> {project.tech}
                 </p>
+                <p className="text-sm text-base-content/70 mb-1">
+                  <strong>Role:</strong> {project.role}
+                </p>
                 <p className="text-base-content/70 mb-3">{project.description}</p>
                 <div className="flex gap-2">
                   {project.links.map((link, linkIdx) => (
