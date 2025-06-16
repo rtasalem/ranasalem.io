@@ -13,19 +13,17 @@ export default function Gear() {
             <tr>
               <th></th>
               <th>Item</th>
+              <th>Specs</th>
               <th>Description</th>
-              <th>Price (GBP)</th>
-              <th>Buy It<sup>2</sup></th>
             </tr>
           </thead>
           <tbody>
-            {gearItems.map(({ icon, item, description, price, url }) => (
+            {gearItems.map(({ icon, item, specs, description }) => (
               <tr key={item}>
                 <th>{icon}</th>
                 <td>{item}</td>
+                <td>{specs}</td>
                 <td>{description}</td>
-                <td>{price}</td>
-                <td>{url}</td>
               </tr>
             ))}
           </tbody>
@@ -35,9 +33,6 @@ export default function Gear() {
           functionality for switching between devices (specifically on keyboards) is 
           second to none. That being said my opinions are all my own and I'm not (sadly)
           sponsored by Logitech (maybe one day 🤞🏽).</p>
-          <p><sup>2</sup>Another Disclaimer: All the links listed above are affiliate links.  
-            This just means that if you use those links to purchase any of the above items,   
-            I get a little kickback as a reward and at no extra cost to you. 😊</p>
         </div>
       </div>
     </div>
