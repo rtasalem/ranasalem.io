@@ -10,9 +10,9 @@ export default function Projects() {
           A selection of side projects I’ve built and maintained...
         </p>
         <div className="space-y-8">
-          {projects.map((project, idx) => (
+          {projects.map((project) => (
             <div
-              key={idx}
+              key={project.title}
               className="flex flex-col md:flex-row md:items-start md:gap-6 border-b border-base-300 pb-6"
             >
               <div className="text-sm text-base-content/50 md:w-20 md:text-right">
@@ -28,9 +28,9 @@ export default function Projects() {
                 </p>
                 <p className="text-base-content/70 mb-3">{project.description}</p>
                 <div className="flex gap-2">
-                  {project.links.map((link, linkIdx) => (
+                  {project.links.map((link) => (
                     <a
-                      key={linkIdx}
+                      key={link.url}
                       href={link.url}
                       target="_blank"
                       rel="noopener noreferrer"

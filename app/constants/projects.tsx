@@ -47,6 +47,6 @@ export const projects = [
     links: [
       { icon: faGithub, url: "https://github.com/rtasalem/barbie-ecommerce-website" }
     ],
-    year: 2024,
+    year: 2023,
   }
 ]
