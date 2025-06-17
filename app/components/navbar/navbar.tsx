@@ -12,7 +12,7 @@ export default function Navbar() {
         <NavLinks />
       </div>
       <div className="navbar-end">
-        <ThemeToggle />
+        {/* <ThemeToggle /> */}
       </div>
     </div>
   )
