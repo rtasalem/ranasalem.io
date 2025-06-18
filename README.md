@@ -16,6 +16,7 @@ Welcome to my little corner of the internet.
 
 - Light mode (for the people that want their corneas to burn to a crisp).
 - Dark mode (the only right choice).
+- Frog mode (a.k.a. Rana's mode, `rana` = `frog` in Spanish & Italian)
 
 ## Getting Started
 
