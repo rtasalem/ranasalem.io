@@ -3,11 +3,11 @@
   "version": "0.8.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
+    "build:content": "contentlayer2 build",
+    "dev": "next dev --turbopack",
     "lint": "next lint",
-    "build:content": "contentlayer2 build"
+    "start": "next start"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
