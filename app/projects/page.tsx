@@ -4,9 +4,9 @@ import { projects } from "../constants/projects"
 export default function Projects() {
   return (
     <div className="bg-base-100 text-base-content">
-      <div className="max-w-4xl mx-auto py-10">
-        <h1 className="text-3xl font-bold text-center mb-4">projects</h1>
-        <p className="text-center text-base-content/60 mb-10">
+      <div className="max-w-4xl mx-auto">
+        <h1 className="text-3xl font-bold text-center mt-5 mb-4">projects</h1>
+        <p className="text-center text-base-content mb-10">
           A selection of side projects I’ve built and maintained...
         </p>
         <div className="space-y-8">
