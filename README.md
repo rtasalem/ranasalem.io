@@ -20,6 +20,8 @@ Welcome to my little corner of the internet.
 
 ## Getting Started
 
+Build and compile the 
+
 Install dependencies:
 ```bash
 npm i

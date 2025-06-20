@@ -1,30 +1,9 @@
-// export default function Blog() {
-//   return (
-//     <div className="">
-//       <div className="text-center">
-//         
-//         
-//       </div>
-//     </div>
-//   )
-// }
-
 import Link from 'next/link'
 import { compareDesc, format, parseISO } from 'date-fns'
 import { allPosts, Post } from 'contentlayer/generated'
 
 function PostCard(post: Post) {
   return (
-    // <div className="mb-8">
-    //   <h2 className="mb-1 text-xl">
-    //     <Link href={post.url} className="text-blue-700 hover:text-blue-900 dark:text-blue-400">
-    //       {post.title}
-    //     </Link>
-    //   </h2>
-    //   <time dateTime={post.date} className="mb-2 block text-xl text-gray-600">
-    //     {format(parseISO(post.date), 'LLLL d, yyyy')}
-    //   </time>
-    // </div>
     <div className="mb-8">
       <div className="flex items-center justify-between">
         <h2 className="text-xl font-semibold mb-5 mt-10">
@@ -32,7 +11,7 @@ function PostCard(post: Post) {
             {post.title}
           </Link>
         </h2>
-        <time dateTime={post.date} className="text-xl text-gray-500 whitespace-nowrap ml-4">
+        <time dateTime={post.date} className="text-l text-gray-500 whitespace-nowrap ml-4">
           {format(parseISO(post.date), 'LLLL d, yyyy')}
         </time>
       </div>
@@ -40,7 +19,7 @@ function PostCard(post: Post) {
   )
 }
 
-export default function Home() {
+export default function Blog() {
   const posts = allPosts.sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)))
 
   return (
