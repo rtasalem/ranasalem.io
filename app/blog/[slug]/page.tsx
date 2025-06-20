@@ -2,7 +2,7 @@ import { format, parseISO } from 'date-fns'
 import { allPosts } from 'contentlayer/generated'
 
 export async function generateStaticParams() {
-  allPosts.map((post) => ({ slug: post._raw.flattenedPath }))
+  return allPosts.map((post) => ({ slug: post._raw.flattenedPath.replace(/^blog\//, '') }))
 }
 
 export function generateMetadata({ params }: { params: { slug: string } }) {
