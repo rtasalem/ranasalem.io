@@ -2,7 +2,7 @@ import { format, parseISO } from 'date-fns'
 import { allPosts } from 'contentlayer/generated'
 
 export async function generateStaticParams() {
-  return allPosts.map((post) => ({ slug: post._raw.flattenedPath.replace(/^blog\//, '') }))
+  return allPosts.map((post) => ({ slug: post._raw.flattenedPath }))
 }
 
 export function generateMetadata({ params }: { params: { slug: string } }) {
@@ -23,6 +23,7 @@ export default function PostLayout({ params }: { params: { slug: string } }) {
         </time>
         <h1 className="text-3xl font-bold">{post.title}</h1>
       </div>
+      <div className="[&>*]:mb-3 [&>*:last-child]:mb-0" dangerouslySetInnerHTML={{ __html: post.body.html }} />
     </article>
   )
 }
