@@ -3,15 +3,15 @@ export default function Experience() {
     <div className="overflow-x-auto bg-base-100 text-base-content">
       <div className="max-w-6xl mx-auto">
         <div className="text-center">
-          <h1 className="text-3xl font-bold mt-5 mb-5">about</h1>
+          <h1 className="text-3xl font-bold mt-5 mb-5">About</h1>
           <div className="max-w-2xl justify-center mx-auto">
             <p className="text-xl text-justify font-bold italic">Rana Salem</p>
             <p className="text-justify mb-8">I'm a software developer based in Scotland with a passion for building open source software and
               continuously improving the digital user experience. My educational background in forensic science fostered in me a love for experimenting
-              during my days in the lab, tinkering with sophisticated equipment primarily atomic force microscopy and scanning electron microscopy. Today,
-              this translates into my love for building things with code.</p>
+              during my days in the lab, tinkering with sophisticated equipment, primarily atomic force and scanning electron microscopy. Today,
+              this translates into my love for building applications and digital services with code.</p>
           </div>
-          <div className="photos mb-8">
+          <div className="photos mb-10">
             <div className="flex gap-2 justify-center mb-2">
               <div className="w-auto rounded">
                 <img
@@ -28,8 +28,9 @@ export default function Experience() {
                 />
               </div>
             </div>
-            <p className="text-center italic">Photographs my parents took of me developing this website.</p>
+            <p className="text-center italic">Photographs of me developing this website.</p>
           </div>
+          <h1 className="text-3xl font-bold mt-5 mb-5">Timeline</h1>
           <p className="mb-5">A timeline summarising my career so far...</p>
         </div>
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">

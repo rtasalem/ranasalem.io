@@ -25,7 +25,7 @@ export default function Blog() {
   return (
     <div className="overflow-x-auto mx-auto max-w-xl text-base-content bg-base-100">
       <div className='text-center'>
-        <h1 className="text-3xl font-bold mt-5 mb-3">blog</h1>
+        <h1 className="text-3xl font-bold mt-5 mb-3">Blog</h1>
         <p className="mb-5">A collection of all my writing...</p>
       </div>
       {posts.map((post, idx) => (
