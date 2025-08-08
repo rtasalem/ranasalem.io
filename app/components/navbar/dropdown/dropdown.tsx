@@ -5,7 +5,7 @@ export function NavDropdown() {
   return (
     <details>
       <summary>Connect</summary>
-      <ul className="bg-base-200 rounded-t-none p-2">
+      <ul className="bg-base-300 rounded-t-none p-2">
         {dropdownItems.map(({ label, href, icon }) => (
           <li key={label}>
             <a href={href} target="_blank">
