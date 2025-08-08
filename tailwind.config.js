@@ -9,7 +9,7 @@ module.exports = {
     themes: [
       "light",
       "black",
-      "rana"
+      "frog"
     ],
   },
 }

@@ -2,6 +2,8 @@ import { NavbarBrand } from "./brand"
 import { NavLinks } from "./links"
 import { ThemeToggle } from "./themes/theme-toggle"
 
+
+
 export default function Navbar() {
   return (
     <div className="navbar bg-base-100 text-base-content z-50 sticky">
@@ -12,7 +14,7 @@ export default function Navbar() {
         <NavLinks />
       </div>
       <div className="navbar-end">
-        <ThemeToggle />
+        {process.env.ENABLE_THEME_TOGGLE === 'true' && <ThemeToggle />}
       </div>
     </div>
   )

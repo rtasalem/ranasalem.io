@@ -4,9 +4,9 @@ import { projects } from "../constants/projects"
 export default function Projects() {
   return (
     <div className="bg-base-100 text-base-content">
-      <div className="max-w-4xl mx-auto py-10">
-        <h1 className="text-3xl font-bold text-center mb-4">projects</h1>
-        <p className="text-center text-base-content/60 mb-10">
+      <div className="max-w-5xl mx-auto">
+        <h1 className="text-3xl font-bold text-center mt-5 mb-4">Projects</h1>
+        <p className="text-center text-base-content mb-10">
           A selection of side projects I’ve built and maintained...
         </p>
         <div className="space-y-8">
@@ -27,16 +27,17 @@ export default function Projects() {
                   <strong>Role:</strong> {project.role}
                 </p>
                 <p className="text-base-content/70 mb-3">{project.description}</p>
-                <div className="flex gap-2">
+                <div className="flex gap-1">
                   {project.links.map((link) => (
                     <a
                       key={link.url}
                       href={link.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="btn btn-xl btn-ghost"
+                      className="btn btn-m btn-ghost"
                     >
                       <FontAwesomeIcon icon={link.icon} />
+                      <p className="text-sm ml-2">{link.label}</p>
                     </a>
                   ))}
                 </div>

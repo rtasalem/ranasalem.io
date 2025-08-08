@@ -1,12 +1,14 @@
 {
   "name": "ranasalem.io",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "npm run build:content && next build",
+    "build:content": "contentlayer2 build",
+    "dev": "npm run build:content && next dev --turbopack",
+    "lint": "next lint",
+    "lint:fix": "npx eslint . --fix",
+    "start": "next start"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
@@ -14,8 +16,11 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@heroicons/react": "^2.2.0",
+    "contentlayer2": "^0.5.8",
     "daisyui": "^5.0.9",
+    "date-fns": "^4.1.0",
     "next": "15.2.4",
+    "next-contentlayer2": "^0.5.8",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
