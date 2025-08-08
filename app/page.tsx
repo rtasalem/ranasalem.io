@@ -2,16 +2,14 @@ import { KbdKeys } from "./constants/kbd-keys"
 
 export default function Home() {
   return (
-    <div className="hero min-h-screen bg-base-100 text-base-content">
+    <div className="hero min-h-screen">
       <div className="hero-content text-center">
-        <div>
-          <h1 className="text-9xl font-bold mb-5">RANA SALEM</h1>
-          <div className="mb-5">
+        <div className="space-y-5">
+          <h1 className="text-9xl font-bold">RANA SALEM</h1>
+          <div>
             <KbdKeys />
           </div>
-          <p className="mb-5">
-            Full-stack codesmith who occasionally writes about writing code.
-          </p>
+          <p>Full stack codesmith who, other than writing code, occasionally writes.</p>
         </div>
       </div>
     </div>
