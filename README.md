@@ -12,7 +12,7 @@ Welcome to my little corner of the internet.
 
 ## Features
 
-### Themes
+### Themes (WIP)
 
 - Light mode (for the people that want their corneas to burn to a crisp).
 - Dark mode (the only right choice).

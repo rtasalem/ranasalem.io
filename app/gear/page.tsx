@@ -7,7 +7,7 @@ export default function Gear() {
         <h1 className="text-3xl font-bold mt-5 mb-3">Gear</h1>
         <p className="mb-5">A table of everything that I currently use day-to-day working in tech<sup>1</sup>...</p>
       </div>
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-5xl mx-auto">
         <table className="table">
           <thead>
             <tr>
