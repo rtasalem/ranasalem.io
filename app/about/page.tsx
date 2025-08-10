@@ -1,5 +1,5 @@
-import Bio from "./components/bio" 
-import Photos from "./components/photos"
+import Bio from "./components/bio"
+import Diff from "./components/diff"
 import Timeline from "./components/timeline"
 
 export default function Experience() {
@@ -8,7 +8,7 @@ export default function Experience() {
       <div className="text-center space-y-5">
         <h1 className="text-3xl font-bold mt-5">About</h1>
         <Bio />
-        <Photos />
+        <Diff />
         <h1 className="text-3xl font-bold">Timeline</h1>
         <p className="mb-5">My career so far...</p>
       </div>
