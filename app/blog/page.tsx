@@ -27,7 +27,7 @@ export default function Blog() {
   return (
     <div className="overflow-x-auto mx-auto max-w-xl text-base-content bg-base-100">
       <div className='text-center'>
-        <h1 className="text-3xl font-bold mt-5 mb-5">Blog</h1>
+        <h1 className="text-3xl font-mono mt-5 mb-5">Blog</h1>
         <p className="mb-10">A collection of all my writing...</p>
       </div>
       <div className="divide-y divide-base-300">

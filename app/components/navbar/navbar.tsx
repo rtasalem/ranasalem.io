@@ -6,7 +6,7 @@ import { ThemeToggle } from "./themes/theme-toggle"
 
 export default function Navbar() {
   return (
-    <div className="navbar">
+    <div className="navbar font-mono">
       <div className="navbar-start">
         <NavbarBrand />
       </div>

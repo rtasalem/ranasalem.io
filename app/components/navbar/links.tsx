@@ -2,7 +2,7 @@ import { NavDropdown } from "./dropdown/dropdown"
 
 export function NavLinks() {
   return (
-    <ul className="menu menu-horizontal">
+    <ul className="menu menu-horizontal font-semibold">
       <li><a href="/about">About</a></li>
       <li><a href="/projects">Projects</a></li>
       <li><a href="/blog">Blog</a></li>

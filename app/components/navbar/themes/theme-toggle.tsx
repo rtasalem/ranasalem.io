@@ -14,7 +14,7 @@ export function ThemeToggle() {
   }
 
   return (
-    <div className="dropdown dropdown-end">
+    <div className="dropdown dropdown-end font-mono">
       <button tabIndex={0} className="btn btn-ghost m-1">
         {renderThemeIcon(theme)}
       </button>
