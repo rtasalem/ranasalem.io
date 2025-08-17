@@ -9,7 +9,7 @@ function PostCard(post: Post) {
     <div>
       <div className="flex items-center justify-between mb-5 mt-5">
         <h2 className="text-m">
-          <Link href={post.url} className="text-base-content hover:font-bold border-b border-transparent hover:border-base-content pb-0.5">
+          <Link href={post.url} className="text-base-content border-b border-transparent hover:border-base-content pb-0.5">
             {post.title}
           </Link>
         </h2>
