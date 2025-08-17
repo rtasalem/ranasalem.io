@@ -33,7 +33,7 @@ export default function Projects() {
                     rel="noopener noreferrer"
                     className="btn btn-sm btn-ghost font-mono"
                   >
-                    <FontAwesomeIcon icon={link.icon} className="text-xl" />
+                    <FontAwesomeIcon icon={link.icon} className="text-lg" />
                     <p className="text-sm ml-2">{link.label}</p>
                   </a>
                 ))}
