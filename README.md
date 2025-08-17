@@ -18,9 +18,12 @@ Welcome to my little corner of the internet.
 - Dark mode (the only right choice).
 - Frog mode (a.k.a. Rana's mode, `rana` = `frog` in Spanish & Italian)
 
-## Getting Started
+## Environment Variables
+Variable | Value(s) | Summary
+---------|----------|--------
+`ENABLE_THEME_TOGGLE` | `true`/`false` | Enable/disable feature toggle for switching themes.
 
-Build and compile the 
+## Getting Started
 
 Install dependencies:
 ```bash
