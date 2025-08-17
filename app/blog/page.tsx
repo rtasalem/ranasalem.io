@@ -8,12 +8,12 @@ function PostCard(post: Post) {
   return (
     <div>
       <div className="flex items-center justify-between mb-5 mt-5">
-        <h2 className="text-xl">
-          <Link href={post.url} className="text-base-content hover:text-base-300 border-b border-transparent hover:border-base-300 pb-0.5">
+        <h2 className="text-m">
+          <Link href={post.url} className="text-base-content hover:font-bold border-b border-transparent hover:border-base-content pb-0.5">
             {post.title}
           </Link>
         </h2>
-        <time dateTime={post.date} className="text-sm text-base-content whitespace-nowrap ml-4">
+        <time dateTime={post.date} className="text-sm font-mono text-base-content whitespace-nowrap ml-4">
           {format(parseISO(post.date), 'd LLL yyyy')}
         </time>
       </div>
