@@ -5,7 +5,7 @@ export const projects = [
   {
     title: "ranasalem.io",
     tech: "TypeScript, Next.js, DaisyUI",
-    role: 'Sole developer',
+    role: "Sole developer",
     description:
     "My personal website where I share work experience, projects, and blog posts (mostly about tech and software).",
     links: [
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: "Draft My CV",
     tech: "JavaScript, Node.js, Express.js, Bulma, Nunjucks",
-    role: 'Sole developer',
+    role: "Sole developer",
     description:
     "Online form for generating professional CVs in Word or PDF format from user input. Streamlines job applications.",
     links: [
@@ -41,12 +41,23 @@ export const projects = [
   {
     title: "Barbie E-Commerce Platform",
     tech: "Java, JavaScript, React, Spring Boot, REST API",
-    role: 'Backend developer',
+    role: "Backend developer",
     description:
       "Full-stack Barbie themed e-commerce website submitted as a final group project to mark the end of being a software developer trainee at FDM Group.",
     links: [
       { icon: faGithub, label: 'GitHub', url: "https://github.com/rtasalem/barbie-ecommerce-website" }
     ],
     year: 2023,
+  },
+  {
+    title: "MacBook Setup Scripts",
+    tech: "Bash, Homebrew",
+    role: "Maintainer",
+    description:
+      "A series of Bash scripts I created to make the process of setting up a MacBook for software development under Defra's Farming and Countryside Programme easier. Installs all mandatory packages and software. Also provides optional installs for a variety of applications that make day-to-day development and communications easier for develoeprs at all levels.",
+    links: [
+      { icon: faGithub, label: 'GitHub', url: "https://github.com/rtasalem/dfcp-mac-scripts" }
+    ],
+    year: 2024,
   }
 ]
