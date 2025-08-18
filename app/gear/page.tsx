@@ -11,15 +11,17 @@ export default function Gear() {
             <th></th>
             <th>Item</th>
             <th>Specs</th>
+            <th>Price</th>
             <th>Description</th>
           </tr>
         </thead>
         <tbody>
-          {gearItems.map(({ icon, item, specs, description }) => (
+          {gearItems.map(({ icon, item, specs, price, description }) => (
             <tr key={item}>
               <th>{icon}</th>
               <td>{item}</td>
               <td>{specs}</td>
+              <td className='text-right'>{price}</td>
               <td>{description}</td>
             </tr>
           ))}

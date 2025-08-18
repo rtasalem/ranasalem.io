@@ -7,7 +7,7 @@ export const projects = [
     tech: 'TypeScript, Next.js, DaisyUI',
     role: 'Sole developer',
     description:
-    'My personal website where I share work experience, projects, and blog posts (mostly about tech and software).',
+    'My personal portfolio website where I share my career history, projects, and write for my blog.',
     links: [
       { icon: faGithub, label: 'GitHub' ,url: 'https://github.com/rtasalem/ranasalem.io' },
       { icon: faGlobe, label: 'Website', url: 'https://ranasalem.io' }
@@ -19,7 +19,7 @@ export const projects = [
     tech: 'JavaScript, Node.js, NPM, Microsoft Azure, PostgreSQL',
     role: 'Sole developer',
     description:
-    'Node.js module that consumes Azure Service Bus messages and writes to PostgreSQL. Configurable with a single client.',
+    'Node.js module that consumes Azure Service Bus messages from topics or queues and writes the data to a PostgreSQL database. Configurable with a single client.',
     links: [
       { icon: faGithub, label: 'GitHub', url: 'https://github.com/rtasalem/busgres' },
       { icon: faNpm, label: 'NPM Registry', url: 'https://www.npmjs.com/package/busgres' }
@@ -31,7 +31,7 @@ export const projects = [
     tech: 'JavaScript, Node.js, Express.js, Bulma, Nunjucks',
     role: 'Sole developer',
     description:
-    'Online form for generating professional CVs in Word or PDF format from user input. Streamlines job applications.',
+    'Online form for generating professional CVs in Microsoft Word or PDF format from user input. Streamlines job applications.',
     links: [
       { icon: faGithub, label: 'GitHub', url: 'https://github.com/rtasalem/draft-my-cv' },
       { icon: faGlobe, label: 'Website', url: 'https://draftmycv.co.uk' }
@@ -43,7 +43,7 @@ export const projects = [
     tech: 'Java, JavaScript, React, Spring Boot, REST API',
     role: 'Backend developer',
     description:
-      'Full-stack Barbie themed e-commerce website submitted as a final group project to mark the end of being a software developer trainee at FDM Group.',
+      'Full-stack Barbie themed e-commerce website submitted as a final group project to mark the end of my time as a trainee software developer at FDM Group.',
     links: [
       { icon: faGithub, label: 'GitHub', url: 'https://github.com/rtasalem/barbie-ecommerce-website' }
     ],

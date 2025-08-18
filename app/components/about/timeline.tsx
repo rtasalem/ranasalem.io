@@ -29,9 +29,9 @@ export default function Timeline() {
                   : 'timeline-end md:mb-10'
               }`}
             >
-              <time className='font-mono italic'>{date}</time>
-              <div className='text-lg font-black'>{role}</div>
-              <div className='font-black'>{company}</div>
+              <time className='italic font-mono'>{date}</time>
+              <div className='text-lg font-bold'>{role}</div>
+              <div className='font-bold'>{company}</div>
               {summary}
             </div>
             <hr />
