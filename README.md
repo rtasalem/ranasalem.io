@@ -21,7 +21,7 @@ Welcome to my little corner of the internet.
 ## Environment Variables
 Variable | Value(s) | Summary
 ---------|----------|--------
-`ENABLE_THEME_TOGGLE` | `true`/`false` | Enable/disable feature toggle for switching themes.
+`ENABLE_THEME_TOGGLE` | `true`/`false` | Temporary enable/disable feature toggle for switching themes.
 
 ## Getting Started
 

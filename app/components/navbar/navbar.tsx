@@ -14,7 +14,7 @@ export default function Navbar() {
         <NavLinks />
       </div>
       <div className='navbar-end'>
-        {process.env.ENABLE_THEME_TOGGLE === 'true' && <ThemeToggle />}
+        {/* {process.env.ENABLE_THEME_TOGGLE === 'true' && <ThemeToggle />} */}
       </div>
     </div>
   )
