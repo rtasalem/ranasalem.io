@@ -23,7 +23,7 @@ export default function PostLayout({ params }: { params: { slug: string } }) {
         <time dateTime={post.date} className="text-xs font-mono text-base-content">
           {format(parseISO(post.date), 'LLLL d, yyyy')}
         </time>
-        <h1 className="text-3xl mt-2 font-bold">{post.title}</h1>
+        <h1 className="text-3xl mt-2">{post.title}</h1>
       </div>
       <div className="[&>*]:mb-3 [&>*:last-child]:mb-0" dangerouslySetInnerHTML={{ __html: post.body.html }} />
     </article>
