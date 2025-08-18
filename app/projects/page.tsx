@@ -16,7 +16,7 @@ export default function Projects() {
               {project.year}
             </div>
             <div className="flex-1">
-              <h2 className="text-xl font-bold mb-1">{project.title}</h2>
+              <h2 className="text-xl font-bold font-mono mb-1">{project.title}</h2>
               <p className="text-base-content/70 mb-1">
                 <strong>Tech Stack:</strong> {project.tech}
               </p>
