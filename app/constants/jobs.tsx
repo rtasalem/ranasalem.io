@@ -20,19 +20,19 @@ export const jobs = [
   {
     date: 'May - August 2022',
     role: 'Royal Society of Chemistry (RSC) Research Enablement Scholarship',
-    company: 'Royal Society of Chemistry & Glasgow Caledonian University',
+    company: 'Glasgow Caledonian University & University of Glasgow',
     summary: 'Conducted intensive research on the effects of established textile bleaching protocols on the integrity of historic textile artefacts, specifically cotton fibres. Presented findings as a poster and flash talk at the Microscience Microscopy Congress (MMC2023) in Manchester, England. Utilised advanced tools, including Atomic Force Microscopy, Scanning Electron Microscopy, and fluorescence spectroscopy to collect micro- and nano-scale image data.'
   },
   {
     date: 'July - September 2021',
     role: 'Postgraduate Research Intern',
-    company: 'Glasgow Caledonian University & University of Strathclyde',
+    company: 'Glasgow Caledonian University & University of Glasgow',
     summary: 'Conducted initial research into the effects of oxidative and reductive bleaching techniques on historic cotton textile artefacts. All research was performed using advanced techniques, namely Atomic Force Microscopy and Ultraviolet/Visible spectroscopy. Findings were published in the peer-reviewed, open-access Heritage Science journal.'
   },
   {
     date: 'June - August 2020',
     role: 'Royal Microscopical Society (RMS) Summer Studentship',
-    company: 'Royal Microscopical Society & Glasgow Caledonian University',
+    company: 'Glasgow Caledonian University & University of Glasgow',
     summary: 'Conducted initial research on the effects of oxidative and reductive bleaching on historic cotton textile artefacts. Used advanced instrumentation, including Atomic Force Microscopy and Ultraviolet/Visible spectroscopy. Findings were published in the peer-reviewed, open-access Heritage Science journal.'
   }
 ]

@@ -4,7 +4,7 @@ import { faGithub, faNpm } from '@fortawesome/free-brands-svg-icons'
 export const projects = [
   {
     title: 'ranasalem.io',
-    tech: 'TypeScript, Next.js, DaisyUI',
+    tech: 'TypeScript, Next.js, DaisyUI, Contentlayer, MDX (Markdown + JSX)',
     role: 'Sole developer',
     description:
     'My personal portfolio website where I share my career history, projects, and write for my blog.',
@@ -16,7 +16,7 @@ export const projects = [
   },
   {
     title: 'Busgres',
-    tech: 'JavaScript, Node.js, NPM, Microsoft Azure, PostgreSQL',
+    tech: 'JavaScript, Node.js, NPM, Microsoft Azure, Service Bus, PostgreSQL',
     role: 'Sole developer',
     description:
     'Node.js module that consumes Azure Service Bus messages from topics or queues and writes the data to a PostgreSQL database. Configurable with a single client.',
