@@ -20,7 +20,7 @@ export default function PostLayout({ params }: { params: { slug: string } }) {
   return (
     <article className="mx-auto max-w-3xl py-8 text-justify">
       <div className="mb-5 text-center">
-        <time dateTime={post.date} className="text-xs font-mono text-base-content">
+        <time dateTime={post.date} className="text-xs font-mono">
           {format(parseISO(post.date), 'LLLL d, yyyy')}
         </time>
         <h1 className="text-3xl mt-2">{post.title}</h1>
