@@ -1,24 +1,24 @@
-import Navbar from "./components/navbar/navbar"
-import type { Metadata } from "next"
-import "./globals.css"
+import Navbar from './components/navbar/navbar'
+import type { Metadata } from 'next'
+import './globals.css'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
-import { Geist, Geist_Mono } from "next/font/google"
+import { Geist, Geist_Mono } from 'next/font/google'
 
 const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+  variable: '--font-geist-sans',
+  subsets: ['latin'],
 })
 
 const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  variable: '--font-geist-mono',
+  subsets: ['latin'],
 })
 
 export const metadata: Metadata = {
-  title: "Rana Salem",
-  description: "ranasalem.io",
+  title: 'Rana Salem',
+  description: 'ranasalem.io',
 }
 
 export default function RootLayout({
@@ -27,11 +27,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="container mx-auto max-w-full bg-base-100 text-base-content">
+        <div className='container mx-auto max-w-full bg-base-100 text-base-content'>
           <Navbar />
           {children}
         </div>
