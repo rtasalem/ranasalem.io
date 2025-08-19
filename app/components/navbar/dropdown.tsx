@@ -12,7 +12,7 @@ export function NavDropdown() {
       <ul tabIndex={0} className='dropdown-content menu bg-base-300 rounded-box'>
         {dropdownItems.map(({ label, href, icon }) => (
           <li key={label}>
-            <a href={href} target='_blank'>
+            <a href={href} target='_blank' rel='noopener noreferrer'>
               <FontAwesomeIcon icon={icon} />
               {label}
             </a>
