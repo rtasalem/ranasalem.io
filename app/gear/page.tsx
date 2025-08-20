@@ -30,7 +30,7 @@ export default function Gear() {
       <p className='text-left text-xs'>
         <sup>1</sup>Disclaimer: Yes, I do <strong>love</strong> Logitech. Their bluetooth
         functionality for switching between devices (specifically on keyboards) is
-        second to none. That being said my opinions are all my own and I'm not (sadly)
+        second to none. That being said my opinions are all my own and I&apos;m not (sadly)
         sponsored by Logitech (maybe one day 🤞🏽).
       </p>
     </div>

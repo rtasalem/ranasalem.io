@@ -1,8 +1,5 @@
 import { NavbarBrand } from './brand'
 import { NavLinks } from './links'
-import { ThemeToggle } from './themes/theme-toggle'
-
-
 
 export default function Navbar() {
   return (
@@ -14,7 +11,6 @@ export default function Navbar() {
         <NavLinks />
       </div>
       <div className='navbar-end'>
-        {/* {process.env.ENABLE_THEME_TOGGLE === 'true' && <ThemeToggle />} */}
       </div>
     </div>
   )

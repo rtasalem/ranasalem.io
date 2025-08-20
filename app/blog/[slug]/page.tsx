@@ -7,15 +7,24 @@ export async function generateStaticParams() {
   return allPosts.map((post) => ({ slug: post._raw.flattenedPath }))
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }) {
-  const post = allPosts.find((post) => post._raw.flattenedPath === params.slug)
-  if (!post) throw new Error(`Post not found for slug: ${params.slug}`)
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const post = allPosts.find((post) => post._raw.flattenedPath === slug)
+
+  if (!post) {
+    throw new Error(`Post not found for slug: ${slug}`)
+  }
+
   return { title: post.title }
 }
 
-export default function PostLayout({ params }: { params: { slug: string } }) {
-  const post = allPosts.find((post) => post._raw.flattenedPath === params.slug)
-  if (!post) throw new Error(`Post not found for slug: ${params.slug}`)
+export default async function PostLayout({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const post = allPosts.find((post) => post._raw.flattenedPath === slug)
+
+  if (!post) {
+    throw new Error(`Post not found for slug: ${slug}`)
+  }
 
   return (
     <article className='mx-auto max-w-3xl py-8 text-justify'>

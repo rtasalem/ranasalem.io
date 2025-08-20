@@ -1,16 +1,26 @@
+import Image from 'next/image'
+
 export default function Diff() {
   return (
     <div>
       <figure className='diff aspect-16/9' tabIndex={0}>
-        <div className='diff-item-1' role='img' tabIndex={0}>
-          <img
+        <div className='diff-item-1' tabIndex={0}>
+          <Image
+            src='/mini-me-1.jpeg' 
             alt='A childhood photo of Rana sat typing at a computer (1).'
-            src='mini-me-1.jpeg' />
+            width={200}
+            height={200}
+            priority
+            unoptimized={true} />
         </div>
-        <div className='diff-item-2' role='img'>
-          <img
-            alt='A childhood photo of Rana sat typing at a computer (2).'
-            src='mini-me-2.jpeg' />
+        <div className='diff-item-2'>
+          <Image
+            src='/mini-me-2.jpeg'
+            alt='A childhood photo of Rana sat typing at a computer (2).' 
+            width={200}
+            height={200}
+            priority
+            unoptimized={true} />
         </div>
         <div className='diff-resizer'></div>
       </figure>
