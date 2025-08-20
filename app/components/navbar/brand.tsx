@@ -1,5 +1,7 @@
+import Link from 'next/link'
+
 export function NavbarBrand() {
   return (
-    <a href="/" className="btn btn-ghost text-xl">ranasalem.io</a>
+    <Link href='/' className='btn btn-ghost text-xl'>ranasalem.io</Link>
   )
 }

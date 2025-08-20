@@ -1,17 +1,27 @@
-import { KbdKeys } from "./constants/kbd-keys"
+import Image from 'next/image'
+import { KbdKeys } from './components/home/kbd-keys'
 
 export default function Home() {
   return (
-    <div className="hero min-h-screen bg-base-100 text-base-content">
-      <div className="hero-content text-center">
-        <div>
-          <h1 className="text-9xl font-bold mb-5">RANA SALEM</h1>
-          <div className="mb-5">
+    <div className='hero min-h-screen'>
+      <div className='hero-content text-center'>
+        <div className='space-y-5'>
+          <div className='avatar'>
+            <div className='mask mask-squircle w-75'>
+              <Image
+                src='/avatar.png'
+                alt='Rana&apos;s avatar'
+                width={200}
+                height={200}
+                priority
+                unoptimized={true} />
+            </div>
+          </div>
+          <h1 className='text-9xl font-bold'>RANA SALEM</h1>
+          <div>
             <KbdKeys />
           </div>
-          <p className="mb-5">
-            Full-stack codesmith who occasionally writes about writing code.
-          </p>
+          <p>Full stack codesmith who, other than writing code, occasionally writes.</p>
         </div>
       </div>
     </div>
