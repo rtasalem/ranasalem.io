@@ -10,7 +10,7 @@ export const gearItems = [
     icon: '💻',
     item: 'MacBook Pro 2023 16-inch',
     specs: '36GB RAM / 500GB / Apple M3 Pro Chip',
-    description: 'My primary work device that I use for my day-job as a software developer/IT consultant. Absolute workshorse, haven\'t once heard the fans turn on despite the many times I\'ve left several Docker containers running over the weekend.',
+    description: 'My primary work device that I use for my day-job as a software developer. Absolute workshorse, haven\'t once heard the fans turn on despite the many times I\'ve left several Docker containers running over the weekend.',
     price: '~£2,899.00'
   },
   {
@@ -24,7 +24,7 @@ export const gearItems = [
     icon: '🐁',
     item: 'Logitech MX Anywhere 3S',
     specs: 'Bluetooth / Rechargeable via USB-C',
-    description: 'First bluetooth mouse I bought. Now take this with me whenever I\'m travelling because of it\'s small form factor.',
+    description: 'Take this with me whenever I\'m travelling because of its small form factor.',
     price: '£69.99'
   },
   {
@@ -45,7 +45,7 @@ export const gearItems = [
     icon: '⌨️',
     item: 'Keychron K3',
     specs: 'Bluetooth / Rechargeable via USB-C',
-    description: 'First mechanical keyboard I ever bought. Love the clickiness of this one (got it with the brown tactile switches), but bluetooth switching isn\'t the most seamless compared to Logitech. I\'ll often switch between this and the Wave keyboard.',
+    description: 'First mechanical keyboard I ever bought. Love the clickiness of this one, got it with the brown tactile switches (not that I really know what that means). Bluetooth switching isn\'t the best compared to Logitech. I\'ll often switch between this and the Wave keyboard.',
     price: '£120.99'
   }
 ]
