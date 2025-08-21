@@ -2,7 +2,7 @@ import { jobs } from '../../constants/jobs'
 
 export default function Timeline() {
   return (
-    <ul className='timeline timeline-snap-icon max-md:timeline-compact timeline-vertical'>
+    <ul className='timeline timeline-snap-icon timeline-vertical max-md:timeline-compact'>
       {jobs.map(({ date, role, company, summary }, index) => {
         const isEven = index % 2 === 0
         return (
@@ -23,11 +23,10 @@ export default function Timeline() {
               </svg>
             </div>
             <div
-              className={`${
-                isEven
-                  ? 'timeline-start mb-10 md:text-end'
-                  : 'timeline-end md:mb-10'
-              }`}
+              className={`
+                ${ isEven ? 'timeline-start md:text-end' : 'timeline-end' }
+                mb-10
+              `}
             >
               <time className='italic font-mono'>{date}</time>
               <div className='text-lg font-bold'>{role}</div>
