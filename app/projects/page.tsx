@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div className='overflow-auto max-w-5xl mx-auto space-y-5'>
       <h1 className='text-3xl text-center font-mono mt-5'>Projects</h1>
-      <p className='text-center'>Some highlights from my development portfolio...</p>
+      <p className='text-center'>Some highlights from my development portfolio.</p>
       <div className='space-y-5 divide-y divide-base-300 mb-10'>
         {projects.map((project) => (
           <div
