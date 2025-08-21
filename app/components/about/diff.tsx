@@ -2,11 +2,11 @@ import Image from 'next/image'
 
 export default function Diff() {
   return (
-    <div>
+    <div className='hidden lg:block'>
       <figure className='diff aspect-16/9' tabIndex={0}>
         <div className='diff-item-1' tabIndex={0}>
           <Image
-            src='/mini-me-1.jpeg' 
+            src='/childhood-1.jpeg'
             alt='A childhood photo of Rana sat typing at a computer (1).'
             width={200}
             height={200}
@@ -15,8 +15,8 @@ export default function Diff() {
         </div>
         <div className='diff-item-2'>
           <Image
-            src='/mini-me-2.jpeg'
-            alt='A childhood photo of Rana sat typing at a computer (2).' 
+            src='/childhood-2.jpeg'
+            alt='A childhood photo of Rana sat typing at a computer (2).'
             width={200}
             height={200}
             priority
