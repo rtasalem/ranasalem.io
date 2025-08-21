@@ -30,8 +30,7 @@ export default function Navbar() {
       <div className='navbar-center hidden lg:flex'>
         <NavLinks />
       </div>
-      <div className='navbar-end'>
-      </div>
+      <div className='navbar-end'></div>
     </div>
   )
 }
