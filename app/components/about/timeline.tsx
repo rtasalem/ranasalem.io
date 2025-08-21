@@ -24,13 +24,13 @@ export default function Timeline() {
             </div>
             <div
               className={`
-                ${ isEven ? 'timeline-start md:text-end' : 'timeline-end' }
+                ${isEven ? 'timeline-start md:text-end' : 'timeline-end'}
                 mb-10
               `}
             >
-              <time className='italic font-mono'>{date}</time>
+              <time className='font-mono'>{date}</time>
               <div className='text-lg font-bold'>{role}</div>
-              <div className='font-bold'>{company}</div>
+              <div className='font-bold italic'>{company}</div>
               {summary}
             </div>
             <hr />

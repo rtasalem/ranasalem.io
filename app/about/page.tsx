@@ -10,7 +10,7 @@ export default function Experience() {
         <Bio />
         <Diff />
         <h1 className='text-3xl font-mono'>Timeline</h1>
-        <p>My career so far...</p>
+        <p>My career so far.</p>
       </div>
       <Timeline />
     </div>

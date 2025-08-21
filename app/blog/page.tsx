@@ -30,7 +30,7 @@ export default function Blog() {
         <h1 className='text-3xl font-mono mt-5'>Blog</h1>
       </div>
       <div>
-        <p>A collection of all my writing...</p>
+        <p>A collection of all my writing.</p>
       </div>
       <div className='divide-y divide-base-300'>
         {posts.map((post, idx) => (
