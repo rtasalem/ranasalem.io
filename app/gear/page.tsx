@@ -27,7 +27,7 @@ export default function Gear() {
           ))}
         </tbody>
       </table>
-      <p className='text-left text-xs'>
+      <p className='text-left text-xs mb-10'>
         <sup>1</sup>Disclaimer: Yes, I do <strong>love</strong> Logitech. Their bluetooth
         functionality for switching between devices (specifically on keyboards) is
         second to none. That being said my opinions are all my own.
