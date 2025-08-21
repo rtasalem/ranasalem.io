@@ -7,17 +7,17 @@ export default function Home() {
       <div className='hero-content text-center'>
         <div className='space-y-5'>
           <div className='avatar'>
-            <div className='mask mask-squircle w-32 md:w-52 lg:w-72'>
+            <div className='mask mask-squircle w-80'>
               <Image
                 src='/avatar.png'
                 alt='Rana&apos;s avatar'
-                width={200}
-                height={200}
+                fill
+                className='object-cover'
                 priority
                 unoptimized={true} />
             </div>
           </div>
-          <h1 className='text-5xl md:text-6xl lg:text-7xl font-bold'>RANA SALEM</h1>
+          <h1 className='text-4xl md:text-6xl lg:text-7xl font-bold'>RANA SALEM</h1>
           <div>
             <KbdKeys />
           </div>

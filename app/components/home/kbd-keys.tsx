@@ -1,7 +1,7 @@
 export function KbdKeys() {
   return (
-    <div className='my-1 flex flex-wrap w-full justify-center gap-5'>
-      <div className='flex gap-1 mb-3'>
+    <div className='my-1 flex flex-wrap w-full justify-center gap-3'>
+      <div className='flex gap-0.5'>
         <kbd className='kbd'>s</kbd>
         <kbd className='kbd'>o</kbd>
         <kbd className='kbd'>f</kbd>
@@ -11,8 +11,7 @@ export function KbdKeys() {
         <kbd className='kbd'>r</kbd>
         <kbd className='kbd'>e</kbd>
       </div>
-
-      <div className='flex gap-1'>
+      <div className='flex gap-0.5'>
         <kbd className='kbd'>d</kbd>
         <kbd className='kbd'>e</kbd>
         <kbd className='kbd'>v</kbd>
