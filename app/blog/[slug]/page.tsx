@@ -34,7 +34,10 @@ export default async function PostLayout({ params }: { params: Promise<{ slug: s
         </time>
         <h1 className='text-3xl mt-2'>{post.title}</h1>
       </div>
-      <div className='[&_a]:border-b [&_a]:border-transparent [&_a:hover]:border-base-300 [&_a]:pb-0.5 [&>*]:mb-3 [&>*:last-child]:mb-0' dangerouslySetInnerHTML={{ __html: post.body.html }} />
+      <div 
+        className='[&_a]:border-b [&_a]:border-transparent [&_a:hover]:border-base-300 [&_a]:pb-0.5 [&>*]:mb-3 [&>*:last-child]:mb-0' 
+        dangerouslySetInnerHTML={{ __html: post.body.html }} 
+        />
     </article>
   )
 }
