@@ -8,7 +8,7 @@ function PostCard(post: Post) {
   return (
     <div>
       <div className='flex items-center justify-between mt-5 mb-5'>
-        <h2 className='text-m'>
+        <h2 className='text-m text-left'>
           <Link href={post.url} className='border-b border-transparent hover:border-base-300 pb-0.5'>
             {post.title}
           </Link>
@@ -30,7 +30,7 @@ export default function Blog() {
         <h1 className='text-3xl font-mono mt-5'>Blog</h1>
       </div>
       <div>
-        <p>A collection of all my writing.</p>
+        <p className='mb-14'>A collection of my writing. All opinions are my own.</p>
       </div>
       <div className='divide-y divide-base-300'>
         {posts.map((post, idx) => (
