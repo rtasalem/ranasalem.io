@@ -5,22 +5,28 @@ import React from 'react'
 
 const components = {
   h1: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
-    <h1 className="text-xl font-semibold mt-5 mb-5" {...props} />
+    <h1 className="font-bold text-2xl mt-9 mb-3" {...props} />
   ),
   h2: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
-    <h2 className="text-xl font-semibold mt-5 mb-5" {...props} />
+    <h2 className="text-xl mt-7 mb-3" {...props} />
   ),
   h3: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
-    <h3 className="text-xl font-medium mt-5 mb-5" {...props} />
+    <h3 className="text-lg mt-5 mb-3" {...props} />
   ),
   p: (props: React.HTMLAttributes<HTMLParagraphElement>) => (
-    <p className="mt-5" {...props} />
+    <p {...props} />
   ),
-  ul: (props: React.HTMLAttributes<HTMLUListElement>) => (
-    <ul className="list-disc list-inside my-4 space-y-2" {...props} />
+  ul: (props: React.HtmlHTMLAttributes<HTMLUListElement>) => (
+    <ul
+      className="list-disc pl-6 my-4 space-y-2 marker:text-base-content [&>li]:mt-2"
+      {...props}
+    />
   ),
   ol: (props: React.HTMLAttributes<HTMLOListElement>) => (
-    <ol className="list-decimal list-inside my-4 space-y-2" {...props} />
+    <ol
+      className="list-decimal pl-6 my-4 space-y-2 marker:text-base-content [&>li]:mt-2"
+      {...props}
+    />
   ),
   blockquote: (props: React.BlockquoteHTMLAttributes<HTMLElement>) => (
     <blockquote

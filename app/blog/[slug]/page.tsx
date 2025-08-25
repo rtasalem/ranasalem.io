@@ -28,8 +28,8 @@ export default async function PostLayout({ params }: { params: Promise<{ slug: s
   }
 
   return (
-    <article className='mx-auto max-w-3xl py-8 text-left sm:text-justify'>
-      <div className='mb-5 text-center'>
+    <article className='mx-auto max-w-3xl py-5 mb-10 text-left sm:text-justify'>
+      <div className='mb-8 text-center'>
         <time dateTime={post.date} className='text-xs font-mono'>
           {format(parseISO(post.date), 'LLLL d, yyyy')}
         </time>
