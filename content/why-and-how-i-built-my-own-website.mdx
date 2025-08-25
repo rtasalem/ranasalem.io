@@ -1,6 +1,6 @@
 ---
 title: Why and how I built my own website
-date: 2025-08-24
+date: 2025-08-25
 ---
 # Part 1: The Why
 
@@ -12,40 +12,39 @@ Yep, completely my own and under my total ownership. All I would need to pay for
 
 ### 2. I can build it however I want to
 
-The tech stack behind the website would be completely up to me since I’m the one developing and maintaining it. It’s also not just a blog, but essentially my online portfolio, I could have whatever pages, whatever features, whatever quirks I want. Over time as my own skills and tastes develop and change, I can just go right back to the drawing board and change it all if I felt like it. I don’t have to wait for features to be implemented that would make my experience as a user easier, I can just go ahead and build them.
+The tech stack behind the website would be completely up to me since I’m the one developing and maintaining it. It’s also not just a blog, but essentially my online portfolio, I could have whatever pages, whatever features, whatever quirks I want. Over time as my own skills and tastes develop and change, I can go right back to the drawing board and change it all if I felt like it. I don’t have to wait for features to be implemented that would make my experience as a user easier, I can just go ahead and build them.
 
 ### 3. It will outlast other platforms
 
-Sounds a bit dramatic but it’s true. Online social platforms, much like empires, rise and fall. No one’s creating a Myspace account in 2025 as far as I’m aware. Vine was taken away from us. Some platforms also don’t have a generational reach. Almost all of my friends haven’t used Snapchat, MSN, or even Facebook since we were in high school. Social media networks can be at the mercy of trends which quickly lose their appeal after a time. Your own website is really just there **until you decide you don’t want it to be.
+Sounds a bit dramatic but it’s true. Online social platforms, much like empires, rise and fall. No one’s creating a Myspace account in 2025 as far as I’m aware. Vine was taken away from us. Some platforms also don’t have a generational reach. Almost all of my friends haven’t used Snapchat, MSN, or even Facebook since we were in high school. Social media networks can be at the mercy of trends which quickly lose their appeal after a time. Your own website is really just there until you decide you don’t want it to be.
 
 All of these arguments convinced me to make a start. It took months, not out of difficulty but out of laziness, but the more I talked about it to family and friends the more I wanted to get it done. So that’s the why, now onto the how.
 
 # Part 2: The How
 
-Deciding the tech stack I would use to build my website wasn’t too difficult. Luckily there are lots of developers who have developed their own websites to use as inspiration. I do also watch videos from developers on YouTube and I started to nosey around their GitHub profiles to get an idea of what tools people were choosing to develop their site. It was mostly based on what programming language they had the most knowledge of. I started learning Java as a trainee and now I use JavaScript everyday. I wanted to make creating my website a fun challenge, using tools and frameworks that were completely new to me. I chose to use TypeScript mostly because I wanted to make sure every facet of this project was something new to learn, but not so new that it would hinder my progress to the point that I would give up. TypeScript seemed the most natural next language to learn after using JavaScript everyday for just over 2 years now. 
+Deciding the tech stack I would use to build my website wasn’t too difficult. Luckily there are *plenty* of developers who have developed their own websites to use as inspiration. I do also watch videos from developers on YouTube and I started to nosey around their GitHub profiles to get an idea of what tools people were choosing to build their website. It was mostly based on what programming language they had the most knowledge of. I started learning Java as a trainee and now I use JavaScript everyday. I wanted to make creating my website a fun challenge, using tools and frameworks that were completely new to me. I chose to use TypeScript mostly because I wanted to make sure every facet of this project was something new to learn, but not so new that it would hinder my progress to the point that I would give up. TypeScript seemed the most natural next language to learn after using JavaScript everyday for just over 2 years now. 
 
-Without further ado, here’s everything that I used to build this website (I’ve included some useful resources that really helped in learning how to use all these tools at the end):
+So without further ado, here’s everything that I used to build this website...
 
 ## Next.js & TailwindCSS
 
-A pretty popular React framework, [Next.js](https://nextjs.org) is the foundation of my website. The main reason I chose it was because of its directory-based router system. Any directory that exists inside the `app` folder becomes a route:
+A pretty popular React framework, [Next.js](https://nextjs.org) is the foundation of this website. The main reason I chose it was because of its directory-based router system. Any directory that exists inside the `app` folder becomes a route:
 
-```jsx
+```
 └── ranasalem.io
-    └── app
-        ├── about
-            └── page.tsx
+    └── about
+        └── page.tsx
 ```
 
 With the above structure, you create the following route:
 
-```jsx
+```
 ranasalem.io/about
 ```
 
-Everything you return inside the `page.tsx` files is then rendered for each route. This was a big advantage as I could easily create or remove pages as and when I needed and there wasn’t going to be big chunks of time spent setting up a router.
+Everything you return inside the `page.tsx` file is then rendered for each route. This was a big advantage as I could easily create or remove pages as and when I needed and there wasn’t going to be big chunks of time spent setting up a router.
 
-Another reason I chose Next.js is because it works really well with [TailwindCSS](https://tailwindcss.com), a utility-first CSS framework I had heard about from other developers on YouTube. I thought it looked like a great way to work more closely with frontend in general (especially as someone who enjoys backend development a lot more). That and the standardised, consistent styling that TailwindCSS classes provide meaning I would spend less time focusing on the minute details developing on my 14-inch laptop screen only for those same details to look awful on smaller phone screens. I honestly really enjoy using TailwindCSS, the documentation has been a massive aid in learning which classes are best to use for any scenario.
+Another reason I chose Next.js is because it works really well with [TailwindCSS](https://tailwindcss.com), a utility-first CSS framework I had heard about from other developers on YouTube. I thought it looked like a great way to work more closely with frontend in general (especially as someone who enjoys backend development a lot more). That and the standardised, consistent styling that TailwindCSS classes provide meant I would spend less time focusing on the minute details developing on my 14-inch laptop screen only for those same details to look awful or out of place on smaller phone screens. I honestly really enjoy using TailwindCSS, the documentation has been a massive aid in learning which classes are best to use for any scenario.
 
 ## DaisyUI
 
@@ -58,17 +57,17 @@ To summarise, DaisyUI checked most of my boxes, so I said “I do” and now we�
 
 ## Contentlayer2 & MDX
 
-Blogs can be simple. A list of blog posts that you browse through, click one, read it, close it, done. Blogs can also be complex. A field to enter an email to sign up and subscribe, RSS feeds, cross-posting to other platforms for wider reach, the whole lot. I wanted my blog to be simple(ish). Nothing fancy, a list of my writing sorted with the latest posts at the top. I definitely want to look into implementing RSS and pagination, but for now keeping it as simple as can be is fine by me. I came across [Contentlayer](https://contentlayer.dev) and I was intrigued after also being introduced to [MDX (Markdown + JSX)](https://www.mdxblog.io/blog/a-beginner's-guide-to-mdx) in the process. MDX is a great way to embed React components inside your blog posts like charts or code. I use it to map over each of my posts so I can create a list of blog posts that’s updated with the latest sorted at the top. Contentlayer is what I use to then transform the MDX content of each blog post to type-safe data at runtime. It also eliminates the need for a CMS, which while being more user friendly, I didn’t feel like I needed since I could just add a new `.mdx` file to my `content` directory, build, and just like that my blog is updated. It’s simple and I like it.
+Blogs can be simple. A list of blog posts that you browse through, click one, read it, close it, done. Blogs can also be complex. A field to enter an email to sign up and subscribe, RSS feeds, cross-posting to other platforms for wider reach, the whole lot. I wanted my blog to be simple(ish). Nothing fancy, a list of my writing sorted with the latest posts at the top. I definitely want to look into implementing RSS and pagination, but for now keeping it as simple as can be is fine by me. I came across [Contentlayer](https://contentlayer.dev) and I was intrigued after also being introduced to [MDX (Markdown + JSX)](https://www.mdxblog.io/blog/a-beginner's-guide-to-mdx) in the process. MDX is a great way to embed React components inside your blog posts like charts or code. I use it to map over each of my posts so I can create a list of blog posts that’s updated with the latest sorted at the top. Contentlayer is what I use to then transform the MDX content of each blog post to type-safe data at runtime. It also eliminates the need for a CMS (content management system), which while being more user friendly, I didn’t feel like I needed since I could just add a new `.mdx` file to my `content` directory, build, and just like that my blog is updated. It’s simple and I like it.
 
-Unfortunately, the [original maintainers behind Contentlayer couldn’t keep the project going due to a lack of funding](https://github.com/contentlayerdev/contentlayer/issues/429). When I first read this I was quite sad cause Contentlayer seemed like a great tool for creating a simple blog with no frills. Fortunately, the project has been picked up and forked as [Contentlayer2](https://github.com/timlrx/contentlayer2), so there’s promise the project isn’t as risk of no longer being maintained. It’s a great project and there’s clearly a lot of people who are passionate about it that don’t want to see it go, if you’re thinking of developing your own blog, I’d say it’s worth checking out.
+Unfortunately, the [original maintainers behind Contentlayer couldn’t keep the project going due to a lack of funding](https://github.com/contentlayerdev/contentlayer/issues/429). When I first read this I was quite sad cause Contentlayer seemed like a great tool for creating a simple blog with no frills. Fortunately, the project has been picked up and forked as [Contentlayer2](https://github.com/timlrx/contentlayer2), so there’s promise the project isn’t as risk of no longer being maintained. It’s a great project and there’s clearly a lot of people who are passionate about it that don’t want to see it go. If you’re thinking of developing your own blog, I’d say it’s worth checking out. You could easily argue that to eliminate any risk, I should just seek out an alternative that's being more actively maintained, which would be fair. However, I really believe in supporting open source projects and so hopefully using Contentlayer for my blog helps in some small way.
 
-So there you have it, these are the core components of my website and it’s been great learning and using each of them. As promised, here are those resources I mentioned earlier:
+So there you have it, these are the core components of my website and it’s been great learning and using each of them. Here are those resources I used along the way:
 
 - [Next.js Tutorial - Beginner to Advanced](https://youtube.com/playlist?list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&si=yv071KCmecBg1fBQ) - A YouTube tutorial playlist that I initially used to get to grips with Next.js. Really easy to follow.
 - [TailwindCSS Cheat Sheet](https://flowbite.com/tools/tailwind-cheat-sheet/) - Love a good cheat sheet. This one from Flowbite is especially useful. You can search for specific class names and where possible they’ve also linked back to the TailwindCSS documentation for the specific class you’re looking for.
 - [TailwindCSS documentation](https://tailwindcss.com/docs/installation/using-vite) - Naturally as an extension to the cheat sheet, the TailwindCSS docs are also great and provide a lot of detail for every class.
-- [Create a Next.js 14 Blog Using Markdown with Contentlayer 2](https://www.youtube.com/watch?v=ICOBQCvbtNc&list=LL&index=11) - A great tutorial from [Cand Dev](https://www.youtube.com/@CandDev) that helped me get started with setting up not only the blog page but also the individual pages for each blog post.
+- [Create a Next.js 14 Blog Using Markdown with Contentlayer 2](https://www.youtube.com/watch?v=ICOBQCvbtNc&list=LL&index=11) - A great tutorial from [Cand Dev](https://www.youtube.com/@CandDev) that helped me get started with setting up my blog.
 
 Creating my website is definitely the most rewarding project I’ve worked on so far. Do I think my website will change in the future? 100%, but as of right now I’m really happy with how it turned out.
 
-[Ctrl+C](https://www.notion.so/Why-and-how-I-built-my-own-website-257781b381e88060a3e0e1597aca4fe7?pvs=21)
+[Ctrl+C](/blog)
