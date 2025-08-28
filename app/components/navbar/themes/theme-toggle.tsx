@@ -1,11 +1,16 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { themeChange } from 'theme-change'
 import { renderThemeIcon } from './render-theme-icon'
 import { themes } from '../../../constants/themes'
 
 export function ThemeToggle() {
   const [theme, setTheme] = useState('light')
+
+  useEffect(() => {
+    themeChange(false) // 👈 false = don't watch system theme
+  }, [])
 
   function handleThemeChange(event: React.ChangeEvent<HTMLInputElement>) {
     const selectedTheme = event.target.value
@@ -19,7 +24,7 @@ export function ThemeToggle() {
         {renderThemeIcon(theme)}
       </button>
       <ul className='dropdown-content bg-base-300 rounded-box z-10 w-28 p-2 shadow-2xl'>
-        {themes.map((value ) => (
+        {themes.map((value) => (
           <li key={value}>
             <input
               type='radio'
@@ -29,6 +34,8 @@ export function ThemeToggle() {
               value={value}
               onChange={handleThemeChange}
               checked={theme === value}
+              data-set-theme={value} // 👈 this is what theme-change listens to
+              data-act-class='ACTIVECLASS'
             />
           </li>
         ))}
