@@ -10,7 +10,6 @@ module.exports = {
       "light",
       "black",
       "frog"
-    ],
-    darkTheme: "dark"
-  },
+    ]
+  }
 }
