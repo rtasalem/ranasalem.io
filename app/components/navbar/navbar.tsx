@@ -1,5 +1,6 @@
 import { NavbarBrand } from './brand'
 import { NavLinks } from './links'
+import { ThemeToggle } from './theme/theme-toggle'
 
 export default function Navbar() {
   return (
@@ -30,7 +31,9 @@ export default function Navbar() {
       <div className='navbar-center hidden lg:flex'>
         <NavLinks />
       </div>
-      <div className='navbar-end'></div>
+      <div className='navbar-end'>
+        <ThemeToggle />
+      </div>
     </div>
   )
 }

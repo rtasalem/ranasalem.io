@@ -5,8 +5,10 @@ Welcome to my little corner of the internet.
 
 ### Frontend
 - [DaisyUI](https://daisyui.com)
+- [Tailwind CSS](https://tailwindcss.com)
 
 ### Backend
+- [TypeScript](https://www.typescriptlang.org)
 - [Next.js](https://nextjs.org)
 - [MDX](https://mdxjs.com) (Markdown + JSX)
 - [Contentlayer](https://contentlayer.dev/docs/getting-started-cddd76b7) (More specifically [Contentlayer2](https://github.com/timlrx/contentlayer2))

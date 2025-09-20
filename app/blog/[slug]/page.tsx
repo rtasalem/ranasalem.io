@@ -1,6 +1,6 @@
 import { format, parseISO } from 'date-fns'
 import { allPosts } from 'contentlayer/generated'
-import MdxWrapper from '../../components/blog/MdxWrapper'
+import MdxWrapper from '../../components/blog/mdx-wrapper'
 
 export const revalidate = 60
 

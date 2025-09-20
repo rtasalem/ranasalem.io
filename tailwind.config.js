@@ -2,7 +2,7 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {}
   },
   plugins: [require("daisyui")],
   daisyui: {
@@ -10,6 +10,6 @@ module.exports = {
       "light",
       "black",
       "frog"
-    ],
-  },
+    ]
+  }
 }
