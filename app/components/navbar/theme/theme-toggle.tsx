@@ -10,13 +10,21 @@ export function ThemeToggle() {
 
   useEffect(() => {
     themeChange(false)
-  }, [])
 
-  function handleThemeChange(event: React.ChangeEvent<HTMLInputElement>) {
-    const selectedTheme = event.target.value
-    setTheme(selectedTheme)
-    document.documentElement.setAttribute('data-theme', selectedTheme)
-  }
+    const savedTheme = localStorage.getItem("theme") || "light"
+    document.documentElement.setAttribute("data-theme", savedTheme)
+    setTheme(savedTheme)
+
+    const observer = new MutationObserver(() => {
+      const newTheme = document.documentElement.getAttribute("data-theme") || "light"
+      setTheme(newTheme)
+      localStorage.setItem("theme", newTheme)
+    })
+
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] })
+
+    return () => observer.disconnect()
+  }, [])
 
   return (
     <div className='dropdown dropdown-end font-mono'>
@@ -32,8 +40,6 @@ export function ThemeToggle() {
               className='theme-controller btn btn-sm btn-block btn-ghost justify-start'
               aria-label={value}
               value={value}
-              onChange={handleThemeChange}
-              checked={theme === value}
               data-set-theme={value}
               data-act-class='ACTIVECLASS'
             />
