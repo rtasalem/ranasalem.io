@@ -9,7 +9,7 @@ export function NavDropdown() {
         <div>Connect</div>
         <FontAwesomeIcon icon={faCaretDown} />
       </button>
-      <ul tabIndex={0} className='dropdown-content menu bg-base-300 rounded-box'>
+      <ul tabIndex={0} className='dropdown-content menu menu-vertical bg-base-300 rounded-box'>
         {dropdownItems.map(({ label, href, icon }) => (
           <li key={label}>
             <a href={href} target='_blank' rel='noopener noreferrer'>
