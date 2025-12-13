@@ -43,7 +43,7 @@ export const projects = [
     tech: 'Framer, UI/UX, responsive design, mobile web design',
     role: 'Developer, maintainer',
     description:
-    "Custom website for a close friend's small business; a pop-up food stall and fundraising platform. Built and deployed using Framer with a core focus on responsive web design.",
+      'Custom website for a close friend\'s small business; a pop-up food stall and fundraising platform. Built and deployed using Framer with a core focus on responsive web design.',
     links: [
       { icon: faGlobe, label: 'Website', url: 'https://takeabao.framer.website' }
     ],
