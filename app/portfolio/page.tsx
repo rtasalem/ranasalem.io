@@ -21,7 +21,7 @@ export default function Projects() {
                 <strong>Tech Stack:</strong> {project.tech}
               </p>
               <p className='text-base-content/70 mb-1'>
-                <strong>Role:</strong> {project.role}
+                <strong>Role(s):</strong> {project.role}
               </p>
               <p className='text-base-content/70 mb-3'>{project.description}</p>
               <div className='flex gap-1'>
