@@ -7,7 +7,7 @@ export const projects = [
     tech: 'Service migration, JavaScript, Node.js, Hapi.js, Nunjucks, HTML, GOV.UK Design System (GDS), PostgreSQL, Docker, AWS, Google Tag Manager, Content Security Policies (CSP), performance testing, journey testing, Playwright, BrowserStack',
     role: 'Full stack developer',
     description:
-    'Lead the service migration from an Azure-based development platform to an AWS-based development platform. Iterated and improved existing features by implementing performance testing, journey testing, and aligning user-facing frontend views to GDS to be consistent with government-backed accessibility research. Regularly worked with and mentored "guest software developers" from both technical and non-technical backgrounds to deliver features and resolve bugs and technical debt.',
+    'Led the migration of a GOV.UK service from an Azure-based development platform to an AWS-based development platform. Iterated and improved existing features by implementing performance testing, journey testing, and aligning user-facing frontend views to GDS to be consistent with government-backed accessibility research.',
     links: [
       { icon: faGithub, label: 'GitHub' ,url: 'https://github.com/defra/fcp-mpdp-core' },
       { icon: faGlobe, label: 'Website', url: 'https://find-farm-and-land-payment-data.defra.gov.uk' }
@@ -35,6 +35,17 @@ export const projects = [
     links: [
       { icon: faGithub, label: 'GitHub' ,url: 'https://github.com/rtasalem/homelab' },
       { icon: faFile, label: 'Docs', url: 'https://homelab.ranasalem.io' }
+    ],
+    year: 2025
+  },
+  {
+    title: 'Take A Bao',
+    tech: 'Framer, UI/UX, responsive design, mobile web design',
+    role: 'Developer, maintainer',
+    description:
+      'Custom website for a close friend\'s small business; a pop-up food stall and fundraising platform. Built and deployed using Framer with a core focus on responsive web design.',
+    links: [
+      { icon: faGlobe, label: 'Website', url: 'https://takeabao.framer.website' }
     ],
     year: 2025
   },
