@@ -28,10 +28,10 @@ export function ThemeToggle() {
 
   return (
     <div className='dropdown dropdown-end font-mono'>
-      <button tabIndex={0} className='btn btn-ghost m-1'>
+      <button tabIndex={0} className='border-b border-transparent hover:border-base-300 pb-0.5 m-1'>
         {renderThemeIcon(theme)}
       </button>
-      <ul className='dropdown-content bg-base-300 rounded-box z-10 w-28 p-2 shadow-2xl'>
+      <ul className='dropdown-content bg-base-300 rounded-box z-10 w-25 p-2 shadow-2xl'>
         {themes.map((value) => (
           <li key={value}>
             <input
