@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { projects } from '../constants/projects'
 
-export default function Projects() {
+export default function Portfolio() {
   return (
     <div className='overflow-auto max-w-3xl mx-auto space-y-5'>
       <h1 className='text-3xl text-center font-mono mt-5'>Portfolio</h1>
