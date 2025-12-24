@@ -10,8 +10,10 @@ on:
 
 jobs:
   vale:
-    name: runner / vale
+    name: Vale Runner
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: errata-ai/vale-action@v2.1.1
+        with:
+          files: "content/**/*.mdx"
