@@ -2,6 +2,7 @@
 
 import { useMDXComponent } from 'next-contentlayer2/hooks'
 import React from 'react'
+import Image from 'next/image'
 
 const components = {
   h1: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
@@ -44,6 +45,20 @@ const components = {
     <a
       className="text-info border-b border-transparent hover:border-base-300 pb-0.5"
       {...props}
+    />
+  ),
+  img: ({
+    src = '',
+    alt = '',
+    width,
+    height,
+  }: React.ImgHTMLAttributes<HTMLImageElement>) => (
+    <Image
+      src={src}
+      alt={alt}
+      width={Number(width) || 800}
+      height={Number(height) || 450}
+      className="my-6 rounded-lg"
     />
   )
 }
