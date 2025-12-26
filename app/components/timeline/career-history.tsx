@@ -1,6 +1,6 @@
 import { jobs } from '../../constants/jobs'
 
-export default function Timeline() {
+export default function CareerHistory() {
   return (
     <ul className='timeline timeline-snap-icon timeline-vertical max-md:timeline-compact'>
       {jobs.map(({ date, role, company, summary }, index) => {

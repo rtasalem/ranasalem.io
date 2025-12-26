@@ -5,7 +5,7 @@ export default function Portfolio() {
   return (
     <div className='overflow-auto max-w-3xl mx-auto space-y-5'>
       <h1 className='text-3xl text-center font-mono mt-5'>Portfolio</h1>
-      <p className='text-center'>Some highlights from my development portfolio.</p>
+      <p className='text-center'>Highlights from my development portfolio.</p>
       <div className='space-y-5 divide-y divide-base-300 mb-10'>
         {projects.map((project) => (
           <div
