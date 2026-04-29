@@ -4,15 +4,10 @@ import './globals.css'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Inter } from 'next/font/google'
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
-})
-
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const inter = Inter({
+  variable: '--font-inter',
   subsets: ['latin'],
 })
 
@@ -31,7 +26,7 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${inter.variable} antialiased`}>
         <div className='mx-auto max-w-full bg-base-100 text-base-content px-5'>
           <Navbar />
           {children}

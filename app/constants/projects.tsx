@@ -3,14 +3,24 @@ import { faGithub, faNpm, faDocker } from '@fortawesome/free-brands-svg-icons'
 
 export const projects = [
   {
+    title: 'Dev Suq',
+    tech: 'GitHub Copilot, AI',
+    role: 'Developer, maintainer',
+    description:
+    'Dev Suq is a GitHub Copilot plugin marketplace intended to make available to developers plugins that support a hybrid developer-agentic workflow. Includes plugins such as a SonarQube Cloud agent for Node.js projects and agents for detecting drift between service documentation (e.g. AsyncAPI, Open API) and service implementation.',
+    links: [
+      { icon: faGithub, label: 'GitHub' ,url: 'https://github.com/rtasalem/dev-suq' }
+    ],
+    year: 2025
+  },
+  {
     title: 'Find farm and land payment data',
     tech: 'Service migration, JavaScript, Node.js, Hapi.js, Nunjucks, HTML, GOV.UK Design System (GDS), PostgreSQL, Docker, AWS, Google Tag Manager, Content Security Policies (CSP), performance testing, journey testing, Playwright, BrowserStack',
     role: 'Full stack developer',
     description:
     'Led the migration of a GOV.UK service from an Azure-based development platform to an AWS-based development platform. Iterated and improved existing features by implementing performance testing, journey testing, and aligning user-facing frontend views to GDS to be consistent with government-backed accessibility research.',
     links: [
-      { icon: faGithub, label: 'GitHub' ,url: 'https://github.com/defra/fcp-mpdp-core' },
-      { icon: faGlobe, label: 'Website', url: 'https://find-farm-and-land-payment-data.defra.gov.uk' }
+      { icon: faGithub, label: 'GitHub' ,url: 'https://github.com/defra/fcp-mpdp-core' }
     ],
     year: 2025
   },
@@ -70,17 +80,6 @@ export const projects = [
     links: [
       { icon: faGithub, label: 'GitHub', url: 'https://github.com/rtasalem/busgres' },
       { icon: faNpm, label: 'NPM Registry', url: 'https://www.npmjs.com/package/busgres' }
-    ],
-    year: 2024
-  },
-  {
-    title: 'Draft My CV',
-    tech: 'JavaScript, Node.js, Express.js, Bulma, Nunjucks',
-    role: 'Full stack developer, maintainer',
-    description:
-    'Online form for generating professional CVs in Microsoft Word or PDF format from user input. Streamlines job applications.',
-    links: [
-      { icon: faGithub, label: 'GitHub', url: 'https://github.com/rtasalem/draft-my-cv' }
     ],
     year: 2024
   },
