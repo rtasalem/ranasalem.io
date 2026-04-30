@@ -9,7 +9,8 @@ export const projects = [
     description:
     'Dev Suq is a GitHub Copilot plugin marketplace intended to make available to developers plugins that support a hybrid developer-agentic workflow. Includes plugins such as a SonarQube Cloud agent for Node.js projects and agents for detecting drift between service documentation (e.g. AsyncAPI, Open API) and service implementation.',
     links: [
-      { icon: faGithub, label: 'GitHub' ,url: 'https://github.com/rtasalem/dev-suq' }
+      { icon: faGithub, label: 'GitHub' ,url: 'https://github.com/rtasalem/dev-suq' },
+      { icon: faGlobe, label: 'Website', url: 'https://dev-suq.ranasalem.io' }
     ],
     year: 2025
   },
@@ -20,7 +21,8 @@ export const projects = [
     description:
     'Led the migration of a GOV.UK service from an Azure-based development platform to an AWS-based development platform. Iterated and improved existing features by implementing performance testing, journey testing, and aligning user-facing frontend views to GDS to be consistent with government-backed accessibility research.',
     links: [
-      { icon: faGithub, label: 'GitHub' ,url: 'https://github.com/defra/fcp-mpdp-core' }
+      { icon: faGithub, label: 'GitHub' ,url: 'https://github.com/defra/fcp-mpdp-core' },
+      { icon: faGlobe, label: 'Website', url: 'https://find-farm-and-land-payment-data.defra.gov.uk/' }
     ],
     year: 2025
   },
