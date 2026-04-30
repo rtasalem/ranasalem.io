@@ -20,7 +20,8 @@ export const projects = [
     description:
     'Led the migration of a GOV.UK service from an Azure-based development platform to an AWS-based development platform. Iterated and improved existing features by implementing performance testing, journey testing, and aligning user-facing frontend views to GDS to be consistent with government-backed accessibility research.',
     links: [
-      { icon: faGithub, label: 'GitHub' ,url: 'https://github.com/defra/fcp-mpdp-core' }
+      { icon: faGithub, label: 'GitHub' ,url: 'https://github.com/defra/fcp-mpdp-core' },
+      { icon: faGlobe, label: 'Website', url: 'https://dev-suq.ranasalem.io' }
     ],
     year: 2025
   },
