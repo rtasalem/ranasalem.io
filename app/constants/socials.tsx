@@ -7,7 +7,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 export const socialMediaLinks = [
-  { label: "Email", href: 'mailto:ranasalem.tech@gmail.com', icon: faEnvelope },
+  { label: "Email", href: 'mailto:rana@ranasalem.io', icon: faEnvelope },
   { label: "GitHub", href: 'https://github.com/rtasalem', icon: faGithub },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/ranatasalem/', icon: faLinkedin },
   { label: "X (Twitter)", href: 'https://x.com/rtasalem', icon: faXTwitter },

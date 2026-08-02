@@ -52,7 +52,9 @@ const components = {
     alt = '',
     width,
     height,
-  }: React.ImgHTMLAttributes<HTMLImageElement>) => (
+  }: Omit<React.ImgHTMLAttributes<HTMLImageElement>, "src"> & {
+    src: string;
+  }) => (
     <Image
       src={src}
       alt={alt}
