@@ -26,7 +26,7 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body className={`${inter.variable} antialiased`}>
+      <body className={`${inter.variable} antialiased vsc-initialized`}>
         <div className='mx-auto max-w-full bg-base-100 text-base-content px-5'>
           <Navbar />
           {children}
